@@ -144,10 +144,15 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="what-is-tomatenquark">What is Tomatenquark</h1>
-<p><code>Tomatenquark</code> is a early stage project dedicated to the <a href="http://sauerbraten.org/" target="_blank">Cube 2: Sauerbraten</a> game.
-It was born out of frustration about the ongoing stagnation of development effort into <code>sauerbraten</code>.</p>
-<p><code>Tomatenquark</code>&apos;s primary objective is to bring back ongoing development of the game and it&apos;s <a href="http://sauerworld.org/" target="_blank">amazing community</a>. This effort will be initiated by providing binaries of the current <a href="https://svn.code.sf.net/p/sauerbraten/code" target="_blank">svn</a>. Changes to the current <code>svn</code> will be incorporated into <code>Tomatenquark</code> in the foreseeable future.</p>
-<p>The current release binaries can be downloaded via <a href="https://github.com/Tomatenquark/code/releases" target="_blank">GitHub Releases</a> (built by <a href="https://github.com/features/actions" target="_blank">GitHub Actions</a>) below.</p>
+<p><code>Tomatenquark</code> is a early stage project dedicated to the <a href="http://sauerbraten.org/" target="_blank">Cube 2: Sauerbraten</a> game. <code>Tomatenquark</code>&apos;s primary objective is to bring back ongoing development of the game and it&apos;s <a href="http://sauerworld.org/" target="_blank">amazing community</a>. This effort has be initiated by providing binaries of the current <a href="https://svn.code.sf.net/p/sauerbraten/code" target="_blank">svn</a>. Changes to the current <code>svn</code> will be incorporated into <code>Tomatenquark</code> in the foreseeable future.</p>
+<h3 id="installation">Installation</h3>
+<p>Installation of <code>Tomatenquark</code> is currently organized into two steps:</p>
+<ul>
+<li>Downloading binaries</li>
+<li>Downloading media</li>
+</ul>
+<h4 id="downloading-binaries">Downloading binaries</h4>
+<p>The latest release binaries can be downloaded via <a href="https://github.com/Tomatenquark/code/releases" target="_blank">GitHub Releases</a> (built by <a href="https://github.com/features/actions" target="_blank">GitHub Actions</a>) below.</p>
 <table>
 <thead>
 <tr>
@@ -164,7 +169,19 @@ It was born out of frustration about the ongoing stagnation of development effor
 </tr>
 </tbody>
 </table>
-<p>If you would like to contribute to the ongoing development of <code>Tomatenquark</code> (and thus the <code>sauerbraten</code> ecosystem) please note the following:</p>
+<p>Once you downloaded a binary that fits your platform proceed with <a href="#downloading-media">downloading media</a>.</p>
+<h4 id="downloading-media">Downloading media</h4>
+<p>The latest version of all media assets (<img src="images/cubes-solid.svg" height="14em" width="14em">) can be downloaded from <a href="https://github.com/Tomatenquark/media/archive/master.zip" target="_blank">GitHub</a>. Once downloaded the instructions below will tell where exactly to put media contents.</p>
+<h5 id="macos-">Macos <img src="images/apple-brands.svg" height="14em" width="14em"></h5>
+<p>Copy the contents of <code>media.zip</code> to <code>~/Library/Application Support/sauerbraten</code>. Tilde (<code>~</code>) is a placeholder for your current user&apos;s home directory.</p>
+<h5 id="windows-">Windows <img src="images/windows-brands.svg" height="14em" width="14em"></h5>
+<p>Copy the contents of <code>media.zip</code> to <code>$HOME\My Games\Sauerbraten</code>. <code>$HOME</code> is a placeholder for your current user&apos;s home directory.</p>
+<h5 id="ubuntu-">Ubuntu <img src="images/ubuntu-brands.svg" height="14em" width="14em"></h5>
+<p>Copy the contents of <code>media.zip</code> to <code>~/sauerbraten</code>. Tilde (<code>~</code>) is a placeholder for your current user&apos;s home directory.</p>
+<h4 id="playing-the-game">Playing the game</h4>
+<p>Once you have downloaded binaries and media you can start playing by executing the <code>sauerbraten_client</code> (or <code>bat</code>) distributed for your platform.</p>
+<h3 id="development">Development</h3>
+<p>If you would like to contribute to the development of <code>Tomatenquark</code> (and thus the <code>sauerbraten</code> ecosystem) please note the following:</p>
 <ul>
 <li>there is a overall direction that this project aims at - see <a href="https://hackmd.io/@VEZp3E0FRz-R7QeOzCh6zg/SkC5zPeGU" target="_blank">&quot;Sauerbraten fork - Tomatenquark&quot;</a></li>
 <li>the project is in very early phases. Feedback is highly appreciated. You can talk to me on <a href="https://discord.gg/012c19bkwljlWsh3y" target="_blank">Discord</a>.</li>
@@ -205,7 +222,7 @@ It was born out of frustration about the ongoing stagnation of development effor
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"What is Tomatenquark","level":"1.1","depth":1,"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2020-01-31T23:07:07.929Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-31T23:11:56.957Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"What is Tomatenquark","level":"1.1","depth":1,"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2020-02-01T15:17:54.671Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-01T15:19:46.027Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
