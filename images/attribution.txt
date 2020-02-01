@@ -1,2 +1,2 @@
-Please note that apple-brands.svg, ubuntu-brands.svg and windows-brands.svg fall under the https://fontawesome.com/license license.
+Please note that apple-brands.svg, ubuntu-brands.svg, windows-brands.svg and cubes-solid.svg fall under the https://fontawesome.com/license license.
 
