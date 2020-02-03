@@ -8,7 +8,7 @@
 
 | Macos | Windows | Ubuntu |
 | :---: | :-----: | :----: |
-| [<img src="./images/apple-brands.svg" height="100" width="100" alt="Macos"/>](https://github.com/Tomatenquark/launcher/releases/latest/download/launcher-darwin-x64-1.0.0.zip) | [<img src="./images/windows-brands.svg" height="100" width="100" alt="Windows"/>](https://github.com/Tomatenquark/launcher/releases/latest/download/launcher-win32-x64-1.0.0.zip) | [<img src="./images/ubuntu-brands.svg" height="100" width="100" alt="Ubuntu"/>](https://github.com/Tomatenquark/launcher/releases/latest/download/launcher-linux-x64-1.0.0.zip) |
+| [<img src="./images/apple-brands.svg" height="100" width="100" alt="Macos"/>](https://github.com/Tomatenquark/launcher/releases/latest/download/launcher-darwin-x64-latest.zip) | [<img src="./images/windows-brands.svg" height="100" width="100" alt="Windows"/>](https://github.com/Tomatenquark/launcher/releases/latest/download/launcher-win32-x64-latest.zip) | [<img src="./images/ubuntu-brands.svg" height="100" width="100" alt="Ubuntu"/>](https://github.com/Tomatenquark/launcher/releases/latest/download/launcher-linux-x64-latest.zip) |
 
 ### Development
 
