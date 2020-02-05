@@ -1,0 +1,302 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Organization structure · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="UPSTREAM_PATCHES.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    What is Tomatenquark
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../MANUAL_INSTALLATION.html">
+            
+                <a href="../MANUAL_INSTALLATION.html">
+            
+                    
+                    Manual installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Development
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1" data-path="ORGANIZATION.html">
+            
+                <a href="ORGANIZATION.html">
+            
+                    
+                    Organization structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="UPSTREAM_PATCHES.html">
+            
+                <a href="UPSTREAM_PATCHES.html">
+            
+                    
+                    Applying patches from upstream
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Organization structure</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="organization-structure">Organization structure</h1>
+<p>The <code>Tomatenquark</code> is structured into a multitude of repositories which are briefly described on this page.</p>
+<h4 id="sauerbratencode"><code>sauerbraten_code</code></h4>
+<p><code>sauerbraten_code</code> is a read-only mirror of the <a href="https://svn.code.sf.net/p/sauerbraten/code" target="_blank">SVN of sauerbraten</a>. It serves a ground truth for all patches that are incorporated into other repositories.</p>
+<h4 id="code"><code>code</code></h4>
+<p>The <code>code</code> repository contains code for the <code>sauerbraten</code> game. It comes with an extensive <a href="https://github.com/tomatenquark/code/actions" target="_blank">continous integration and deployment</a> suite. This allows for shipping releases quickly (on <code>git tag</code>) on all mainstream platforms, while keeping repository size relatively small. Currently the <code>libs</code> for all mainstream platforms are still in the repository, which should change in the future.</p>
+<h4 id="media"><code>media</code></h4>
+<p><code>media</code> contains all media assets (located in <code>packages</code> and <code>data</code>) shipping within the SVN.
+It is relatively large (<code>&gt;= 1.8GB</code>) and should be replaced by smaller packages with clear licensing in the future.</p>
+<h4 id="launcher"><code>launcher</code></h4>
+<p>The <code>launcher</code> repository contains a Electron based <code>launcher</code> for Tomatenquark. Currently it can:</p>
+<ul>
+<li>download and update releases of Tomatenquark from it&apos;s GitHub releases page</li>
+<li>download and update media using git</li>
+</ul>
+<h4 id="tomatenquarkgithubio"><code>tomatenquark.github.io</code></h4>
+<p>The website of the project which should serve as ground truth for all organizational topics.</p>
+<h4 id="github"><code>.github</code></h4>
+<p>Meta repository containing uniform templates for issues and pull requests (not yet).</p>
+<h4 id="sauerworldmappack"><code>sauerworld_mappack</code></h4>
+<p>This is imported from sauerworld.org</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="UPSTREAM_PATCHES.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Applying patches from upstream">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Organization structure","level":"1.3.1","depth":2,"next":{"title":"Applying patches from upstream","level":"1.3.2","depth":2,"path":"development/UPSTREAM_PATCHES.md","ref":"development/UPSTREAM_PATCHES.md","articles":[]},"previous":{"title":"Development","level":"1.3","depth":1,"ref":"","articles":[{"title":"Organization structure","level":"1.3.1","depth":2,"path":"development/ORGANIZATION.md","ref":"development/ORGANIZATION.md","articles":[]},{"title":"Applying patches from upstream","level":"1.3.2","depth":2,"path":"development/UPSTREAM_PATCHES.md","ref":"development/UPSTREAM_PATCHES.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"development/ORGANIZATION.md","mtime":"2020-02-05T21:26:12.364Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-05T21:32:37.375Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
