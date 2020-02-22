@@ -89,6 +89,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `models/hudgun` | Geartrooper | CC-BY-NC 3.0 |
 | `models/projectiles` | Markus Bekel | CC-BY-NC-SA |
 | `models/vwep` | Markus Bekel | CC-BY-NC-SA |
+| `models/flags` | Markus Bekel | CC-BY-NC-SA |
 | `particles/qreeves` | Quinton Reeves | CC BY-SA 3.0 |
 | `particles` | diverse | CC-BY-SA 4.0 and do whatever you want |
 | `sounds/q009` | Q009 | CC BY-SA 4.0 |
