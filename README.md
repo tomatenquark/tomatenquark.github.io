@@ -4,11 +4,11 @@
 
 ### Obtaining Tomatenquark
 
-`Tomatenquark` can easily be obtained using it's [launcher](https://github.com/tomatenquark/launcher). Please download the launcher for your platform below:
+`Tomatenquark` can easily be obtained via GitHub releases. Please download the game for your platform below:
 
 | Macos | Windows | Ubuntu |
 | :---: | :-----: | :----: |
-| [<img src="./images/apple-brands.svg" height="100" width="100" alt="Macos"/>](https://github.com/Tomatenquark/launcher/releases/latest/download/launcher-darwin-x64-latest.zip) | [<img src="./images/windows-brands.svg" height="100" width="100" alt="Windows"/>](https://github.com/Tomatenquark/launcher/releases/latest/download/launcher-win32-x64-latest.zip) | [<img src="./images/ubuntu-brands.svg" height="100" width="100" alt="Ubuntu"/>](https://github.com/Tomatenquark/launcher/releases/latest/download/launcher-linux-x64-latest.zip) |
+| [<img src="./images/apple-brands.svg" height="100" width="100" alt="Macos"/>](https://github.com/Tomatenquark/code/releases/latest/download/sauerbraten_macos.zip) | [<img src="./images/windows-brands.svg" height="100" width="100" alt="Windows"/>](https://github.com/Tomatenquark/code/releases/latest/download/sauerbraten_windows.zip) | [<img src="./images/ubuntu-brands.svg" height="100" width="100" alt="Ubuntu"/>](https://github.com/Tomatenquark/code/releases/latest/download/sauerbraten_ubuntu.zip) |
 
 ### Development
 
