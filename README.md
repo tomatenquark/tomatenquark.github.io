@@ -24,5 +24,5 @@ sudo apt install libsdl2-mixer-2.0-0 libsdl2-2.0-0 libsdl2-image-2.0-0
 If you would like to contribute to the development of `Tomatenquark` (and thus the `sauerbraten` ecosystem) please note the following:
 
 - there is a overall direction that this project aims at - see ["Sauerbraten fork - Tomatenquark"](https://hackmd.io/@VEZp3E0FRz-R7QeOzCh6zg/SkC5zPeGU)
-- the project is in very early phases. Feedback is highly appreciated. You can talk to me on [Discord](https://discord.gg/012c19bkwljlWsh3y).
+- the project is in very early phases. Feedback is highly appreciated. You can talk to me on [Discord](https://discord.gg/47rkQar).
 - everything is undocumented right now. This is very much how `sauerbraten` deals with things, and very much how `Tomatenquark` **is not supposed** to be. Be a little patient. Creating quality documentation takes time 🍷
