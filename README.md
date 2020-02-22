@@ -10,6 +10,15 @@
 | :---: | :-----: | :----: |
 | [<img src="./images/apple-brands.svg" height="100" width="100" alt="Macos"/>](https://github.com/Tomatenquark/code/releases/latest/download/sauerbraten_macos.zip) | [<img src="./images/windows-brands.svg" height="100" width="100" alt="Windows"/>](https://github.com/Tomatenquark/code/releases/latest/download/sauerbraten_windows.zip) | [<img src="./images/ubuntu-brands.svg" height="100" width="100" alt="Ubuntu"/>](https://github.com/Tomatenquark/code/releases/latest/download/sauerbraten_ubuntu.zip) |
 
+#### Additional installation instructions for Ubuntu
+
+The game may not run out of the box on Ubuntu due to missing dependencies.
+This can be fixed by installing the missing dependencies via `apt`.
+
+```
+sudo apt install libsdl2-mixer-2.0-0 libsdl2-2.0-0 libsdl2-image-2.0-0
+```
+
 ### Development
 
 If you would like to contribute to the development of `Tomatenquark` (and thus the `sauerbraten` ecosystem) please note the following:
