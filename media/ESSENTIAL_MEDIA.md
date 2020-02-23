@@ -82,7 +82,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `blendbrush` | The Inexor Team | CC BY-SA 4.0 |
 | `crosshairs` | The Inexor Team | CC BY-SA 4.0 |
 | `fonts` | Tavmjong Bah | Public domain |
-| `hud` | Lee Salzman | ZLIB |
+| `hud` | Lee Salzman, Salatiel | ZLIB, CC BY-SA 4.0 |
 | `icons` | Scnd101 | GNU LGPL v3 |
 | `models/snoutx10k` | John 'geartrooper' Siar | CC BY 3.0 |
 | `models/ammo`  | Markus Bekel | CC BY-NC-SA |
@@ -92,6 +92,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `models/projectiles` | Markus Bekel | CC BY-NC-SA |
 | `models/vwep` | Markus Bekel | CC BY-NC-SA |
 | `models/flags` | Markus Bekel | CC BY-NC-SA |
+| `models/skull` | Jean Ayers | CC BY-SA 3.0 |
 | `particles/qreeves` | Quinton Reeves | CC BY-SA 3.0 |
 | `particles` | - | CC BY-SA 4.0 and do whatever you want |
 | `sounds/qubodup` | qubodup | CC BY-SA 4.0 |
