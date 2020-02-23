@@ -86,6 +86,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `icons` | Scnd101 | GNU LGPL v3 |
 | `models/snoutx10k` | John 'geartrooper' Siar | CC BY 3.0 |
 | `models/ammo`  | Markus Bekel | CC BY-NC-SA |
+| `models/boost` | Markus Bekel | CC BY-NC-SA |
 | `models/armor` | - | GNU GPL 2 |
 | `models/hudgun` | Geartrooper | CC BY-NC 3.0 |
 | `models/projectiles` | Markus Bekel | CC BY-NC-SA |
@@ -97,5 +98,5 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `sounds/q009` | Q009 | CC BY-SA 4.0 |
 | `sounds/lordkv` | lukv | CC BY-SA 4.0 |
 | `sounds/soundsnap` | - | [Soundsnap license](https://www.soundsnap.com/licence) |
-| `texture` | diverse | CC0 1.0 Universal (CC0 1.0) |
+| `texture` | - | CC0 1.0 Universal (CC0 1.0) |
 | `texture/yves_allaire/` | Yves Allaire | Do whatever you want |
