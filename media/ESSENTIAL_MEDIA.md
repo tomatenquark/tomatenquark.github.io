@@ -85,14 +85,15 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `hud` | Lee Salzman | ZLIB |
 | `icons` | Scnd101 | GNU LGPL v3 |
 | `models/snoutx10k` | John 'geartrooper' Siar | CC-BY 3.0 http://creativecommons.org/licenses/by/3.0/ |
-| `models/armor` | diverse | GNU GPL 2 |
+| `models/armor` | - | GNU GPL 2 |
 | `models/hudgun` | Geartrooper | CC-BY-NC 3.0 |
 | `models/projectiles` | Markus Bekel | CC-BY-NC-SA |
 | `models/vwep` | Markus Bekel | CC-BY-NC-SA |
 | `models/flags` | Markus Bekel | CC-BY-NC-SA |
 | `particles/qreeves` | Quinton Reeves | CC BY-SA 3.0 |
-| `particles` | diverse | CC-BY-SA 4.0 and do whatever you want |
+| `particles` | - | CC-BY-SA 4.0 and do whatever you want |
 | `sounds/q009` | Q009 | CC BY-SA 4.0 |
 | `sounds/lordkv` | lukv | CC BY-SA 4.0 |
+| `sounds/soundsnap` | - | [Soundsnap license](https://www.soundsnap.com/licence) |
 | `texture` | diverse | CC0 1.0 Universal (CC0 1.0) |
 | `texture/yves_allaire/` | Yves Allaire | Do whatever you want |
