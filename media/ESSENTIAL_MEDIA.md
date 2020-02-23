@@ -72,26 +72,28 @@ The `essential` repository contains a minimal collection of media assets to run 
 | ---- | ------ | ------- |
 | `.cfg` | -    | ZLIB    |
 | `guioverlay.png`, `guiskin.png`, `guislider.png` | Markus "makkE" Bekel | Creative Commons Deed / Attribution Non-commercial Share-Alike ( at-nc-sa ) |
-| ` data/background_detail.png`, ` data/background_decal.png`, ` data/background.png`, ` data/logo.png`, ` data/icon.png` | The Inexor Team | CC-BY-SA 4.0 |
+| ` data/background_detail.png`, ` data/background_decal.png`, ` data/background.png`, ` data/logo.png`, ` data/icon.png` | The Inexor Team | CC BY-SA 4.0 |
 
 ### `packages`
 
 | File | Author | License |
 | ---- | ------ | ------- |
 | `base` | - | See `map.cfg` for licenses |
-| `blendbrush` | The Inexor Team | CC-BY-SA 4.0 |
-| `crosshairs` | The Inexor Team | CC-BY-SA 4.0 |
+| `blendbrush` | The Inexor Team | CC BY-SA 4.0 |
+| `crosshairs` | The Inexor Team | CC BY-SA 4.0 |
 | `fonts` | Tavmjong Bah | Public domain |
 | `hud` | Lee Salzman | ZLIB |
 | `icons` | Scnd101 | GNU LGPL v3 |
-| `models/snoutx10k` | John 'geartrooper' Siar | CC-BY 3.0 http://creativecommons.org/licenses/by/3.0/ |
+| `models/snoutx10k` | John 'geartrooper' Siar | CC BY 3.0 |
+| `models/ammo`  | Markus Bekel | CC BY-NC-SA |
 | `models/armor` | - | GNU GPL 2 |
-| `models/hudgun` | Geartrooper | CC-BY-NC 3.0 |
-| `models/projectiles` | Markus Bekel | CC-BY-NC-SA |
-| `models/vwep` | Markus Bekel | CC-BY-NC-SA |
-| `models/flags` | Markus Bekel | CC-BY-NC-SA |
+| `models/hudgun` | Geartrooper | CC BY-NC 3.0 |
+| `models/projectiles` | Markus Bekel | CC BY-NC-SA |
+| `models/vwep` | Markus Bekel | CC BY-NC-SA |
+| `models/flags` | Markus Bekel | CC BY-NC-SA |
 | `particles/qreeves` | Quinton Reeves | CC BY-SA 3.0 |
-| `particles` | - | CC-BY-SA 4.0 and do whatever you want |
+| `particles` | - | CC BY-SA 4.0 and do whatever you want |
+| `sounds/qubodup` | qubodup | CC BY-SA 4.0 |
 | `sounds/q009` | Q009 | CC BY-SA 4.0 |
 | `sounds/lordkv` | lukv | CC BY-SA 4.0 |
 | `sounds/soundsnap` | - | [Soundsnap license](https://www.soundsnap.com/licence) |
