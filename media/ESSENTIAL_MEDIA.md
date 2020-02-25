@@ -90,6 +90,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `models/armor` | - | GNU GPL 2 |
 | `models/health` | Markus Bekel | CC BY-NC-SA |
 | `models/hudgun` | Geartrooper | CC BY-NC 3.0 |
+| `models/quad` | Salatiel      | CC BY-SA 4.0 |
 | `models/projectiles` | Markus Bekel | CC BY-NC-SA |
 | `models/vwep` | Markus Bekel | CC BY-NC-SA |
 | `models/flags` | Markus Bekel | CC BY-NC-SA |
