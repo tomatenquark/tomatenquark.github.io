@@ -88,6 +88,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `models/ammo`  | Markus Bekel | CC BY-NC-SA |
 | `models/boost` | Markus Bekel | CC BY-NC-SA |
 | `models/armor` | - | GNU GPL 2 |
+| `models/health` | Markus Bekel | CC BY-NC-SA |
 | `models/hudgun` | Geartrooper | CC BY-NC 3.0 |
 | `models/projectiles` | Markus Bekel | CC BY-NC-SA |
 | `models/vwep` | Markus Bekel | CC BY-NC-SA |
