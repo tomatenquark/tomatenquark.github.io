@@ -88,13 +88,20 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `models/ammo`  | Markus Bekel | CC BY-NC-SA |
 | `models/boost` | Markus Bekel | CC BY-NC-SA |
 | `models/armor` | - | GNU GPL 2 |
+| `models/dcp`   | Wouter van Oordmerssen aka Aardappel | Do whatever you want |
+| `models/makke` | Markus Bekel | CC BY-NC 2.5 |
+| `models/mitaman` | MitaMAN (Mike Poeschl) | Do whatever you want |
 | `models/health` | Markus Bekel | CC BY-NC-SA |
 | `models/hudgun` | Geartrooper | CC BY-NC 3.0 |
 | `models/quad` | Salatiel      | CC BY-SA 4.0 |
 | `models/projectiles` | Markus Bekel | CC BY-NC-SA |
+| `models/psionic` | Psionic | Do whatever you want |
+| `models/switch1` | Kurtis Kesler | CC AT-NC-SA |
+| `models/objects` | - | CC AT-NC-SA |
 | `models/vwep` | Markus Bekel | CC BY-NC-SA |
 | `models/flags` | Markus Bekel | CC BY-NC-SA |
 | `models/skull` | Jean Ayers | CC BY-SA 3.0 |
+| `models/xeno` | Xeno | Do whatever you want |
 | `particles/qreeves` | Quinton Reeves | CC BY-SA 3.0 |
 | `particles` | - | CC BY-SA 4.0 and do whatever you want |
 | `sounds/qubodup` | qubodup | CC BY-SA 4.0 |
