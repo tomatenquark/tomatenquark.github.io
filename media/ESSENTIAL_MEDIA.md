@@ -109,5 +109,6 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `sounds/lordkv` | lukv | CC BY-SA 4.0 |
 | `sounds/soundsnap` | - | [Soundsnap license](https://www.soundsnap.com/licence) |
 | `sounds/red_eclipse` | Red Eclipse Team | CC BY-SA 4.0 |
+| `skyboxes/cruz` | cruZ | CC BY-SA 3.0 |
 | `texture` | - | CC0 1.0 Universal (CC0 1.0) |
 | `texture/yves_allaire/` | Yves Allaire | Do whatever you want |
