@@ -73,6 +73,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `.cfg` | -    | ZLIB    |
 | `guioverlay.png`, `guiskin.png`, `guislider.png` | Markus "makkE" Bekel | Creative Commons Deed / Attribution Non-commercial Share-Alike ( at-nc-sa ) |
 | ` data/background_detail.png`, ` data/background_decal.png`, ` data/background.png`, ` data/logo.png`, ` data/icon.png` | The Inexor Team | CC BY-SA 4.0 |
+| `data/*.png` | The Tomatenquark Team | CC BY-SA 4.0 |
 
 ### `packages`
 
@@ -113,6 +114,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `sounds/lordkv` | lukv | CC BY-SA 4.0 |
 | `sounds/soundsnap` | - | [Soundsnap license](https://www.soundsnap.com/licence) |
 | `sounds/red_eclipse` | Red Eclipse Team | CC BY-SA 4.0 |
+| `sounds/xonotic` | Xonotic Team | GPL 3 |
 | `skyboxes/cruz` | cruZ | CC BY-SA 3.0 |
 | `texture` | - | CC0 1.0 Universal (CC0 1.0) |
 | `tech1soc`| Sock | MIT license |
