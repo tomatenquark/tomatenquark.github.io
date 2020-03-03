@@ -1,6 +1,6 @@
 # Organization structure
 
-The `Tomatenquark` is structured into a multitude of repositories which are briefly described on this page.
+The `Tomatenquark` organization is structured into a multitude of repositories which are briefly described on this page.
 
 #### sauerbraten_code
 
@@ -25,4 +25,3 @@ The website of the project which should serve as ground truth for all organizati
 #### .github
 
 Meta repository containing uniform templates for issues and pull requests (not yet).
-
