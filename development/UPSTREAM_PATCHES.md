@@ -1,6 +1,6 @@
 # Applying patches from upstream
 
-`Tomatenquark` does not incorporate any custom code (yet). This is by design. The project is looking to deliver a stable, constantly updated version of the game (see `launcher`) before making any adaptions to its code. This is mainly done by providing `CI/CD`. 
+`Tomatenquark` does not incorporate any custom code (yet). This is by design. The project is looking to deliver a stable, constantly updated version of the game before making any adaptions to its code. This is mainly done by providing `CI/CD`. 
 
 In order to keep this system running it is important to be able to roll in changes from `upstream` (sauerbraten SVN).
 

@@ -10,11 +10,6 @@ The `Tomatenquark` organization is structured into a multitude of repositories w
 
 The `code` repository contains code for the `sauerbraten` game. It comes with an extensive [continous integration and deployment](https://github.com/tomatenquark/code/actions) suite. This allows for shipping releases quickly (on `git tag`) on all mainstream platforms, while keeping repository size relatively small. Currently the `libs` for all mainstream platforms are still in the repository, which should change in the future.
 
-#### media
-
-`media` contains all media assets (located in `packages` and `data`) shipping within the SVN.
-It is relatively large (`>= 1.8GB`) and should be replaced by smaller packages with clear licensing in the future.
-
 #### essential
 `essential` contains the bare minimum media assets (all under a free and known license) to run the game.
 
