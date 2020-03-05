@@ -48,6 +48,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `painkillah` | PainKillAH | CC Attribution-NonCommercial-ShareAlike 2.5 |
 | `particles/qreeves` | Quinton Reeves | CC BY-SA 3.0 |
 | `particles` | - | CC BY-SA 4.0 and do whatever you want |
+| `sounds/ecrivain` | Écrivain | CC0 |
 | `sounds/qubodup` | qubodup | CC BY-SA 4.0 |
 | `sounds/q009` | Q009 | CC BY-SA 4.0 |
 | `sounds/lordkv` | lukv | CC BY-SA 4.0 |
