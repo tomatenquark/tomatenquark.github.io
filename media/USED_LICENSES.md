@@ -27,6 +27,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `hud` | Lee Salzman, Salatiel | ZLIB, CC BY-SA 4.0 |
 | `icons` | Scnd101 | GNU LGPL v3 |
 | `loopix` | Loopix-Project | Free and commercial use |
+| `music/kai_engel` | Kai Engel | CC BY and CC BY-NC |
 | `models/snoutx10k` | John 'geartrooper' Siar | CC BY 3.0 |
 | `models/ammo`  | Markus Bekel | CC BY-NC-SA |
 | `models/boost` | Markus Bekel | CC BY-NC-SA |
