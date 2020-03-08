@@ -21,6 +21,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `aard` | Aardappel | Do whatever you want |
 | `base` | - | See `map.cfg` for licenses |
 | `blendbrush` | The Inexor Team | CC BY-SA 4.0 |
+| `caustics` | Calinou | CC0 |
 | `crosshairs` | The Inexor Team | CC BY-SA 4.0 |
 | `fonts` | Tavmjong Bah | Public domain |
 | `golgotha` | The Golgotha project | Public domain |
