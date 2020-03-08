@@ -51,6 +51,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `particles/qreeves` | Quinton Reeves | CC BY-SA 3.0 |
 | `particles` | - | CC BY-SA 4.0 and do whatever you want |
 | `salatiel` | Salatiel | CC BY-SA 4.0 |
+| `sounds/ambience` | - | CC BY-SA     |
 | `sounds/ecrivain` | Écrivain | CC0 |
 | `sounds/qubodup` | qubodup | CC BY-SA 4.0 |
 | `sounds/q009` | Q009 | CC BY-SA 4.0 |
@@ -62,6 +63,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `texture` | - | CC0 1.0 Universal (CC0 1.0) |
 | `tech1soc`| Sock | MIT license |
 | `textures/pk02` | Philip Klevestav | Creative Commons Attribution 3.0 |
+| `textures/nieb` | Nieb | CC0 |
 | `textures/terrain_soc` | Simon 'Sock' O'Callaghan | CC by-nc-sa |
 | `texture/yves_allaire/` | Yves Allaire | Do whatever you want |
 | `trak5` | Georges 'TRaK' Grondin | MIT license |
