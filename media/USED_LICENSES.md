@@ -29,6 +29,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `icons` | Scnd101 | GNU LGPL v3 |
 | `loopix` | Loopix-Project | Free and commercial use |
 | `music/kai_engel` | Kai Engel | CC BY and CC BY-NC |
+| `models/ao1`   | Pointblank | CC BY-S |
 | `models/snoutx10k` | John 'geartrooper' Siar | CC BY 3.0 |
 | `models/ammo`  | Markus Bekel | CC BY-NC-SA |
 | `models/boost` | Markus Bekel | CC BY-NC-SA |
@@ -45,6 +46,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `models/objects` | - | CC AT-NC-SA |
 | `models/vwep` | Markus Bekel | CC BY-NC-SA |
 | `models/flags` | Markus Bekel | CC BY-NC-SA |
+| `models/mapmodels/nieb` | Nieb | CC0 |
 | `models/skull` | Jean Ayers | CC BY-SA 3.0 |
 | `models/xeno` | Xeno | Do whatever you want |
 | `painkillah` | PainKillAH | CC Attribution-NonCommercial-ShareAlike 2.5 |
