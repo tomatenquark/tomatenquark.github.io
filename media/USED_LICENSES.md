@@ -32,6 +32,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `models/ao1`   | Pointblank | CC BY-S |
 | `models/snoutx10k` | John 'geartrooper' Siar | CC BY 3.0 |
 | `models/ammo`  | Markus Bekel | CC BY-NC-SA |
+| `models/barreldebris` | Salatiel | CC BY-SA 4.0 |
 | `models/boost` | Markus Bekel | CC BY-NC-SA |
 | `models/armor` | - | GNU GPL 2 |
 | `models/dcp`   | Wouter van Oordmerssen aka Aardappel | Do whatever you want |
