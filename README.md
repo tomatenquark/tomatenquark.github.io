@@ -25,4 +25,4 @@ If you would like to contribute to the development of `Tomatenquark` (and thus t
 
 - there is a overall direction that this project aims at - see ["Tomatenquark roadmap"](https://hackmd.io/@tomatenquark/HkdEAMwEI)
 - the project is in very early phases. Feedback is highly appreciated. You can talk to us on [Discord](https://discord.gg/47rkQar).
-- many things are undocumented right now. This is very much how `sauerbraten` deals with things, and very much how `Tomatenquark` **is not supposed** to be. Be a little patient. Creating quality documentation takes time 🍷
+- many things are undocumented right now. Be a little patient. Creating quality documentation takes time 🍷
