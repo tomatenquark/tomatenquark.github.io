@@ -35,8 +35,10 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `models/boost` | Markus Bekel | CC BY-NC-SA |
 | `models/armor` | - | GNU GPL 2 |
 | `models/dcp`   | Wouter van Oordmerssen aka Aardappel | Do whatever you want |
+| `models/debris` | Salatiel | CC BY-NC 4.0 |
 | `models/makke` | Markus Bekel | CC BY-NC 2.5 |
 | `models/mitaman` | MitaMAN (Mike Poeschl) | Do whatever you want |
+| `models/gibs` | Salatiel | CC BY-NC 4.0 |
 | `models/health` | Markus Bekel | CC BY-NC-SA |
 | `models/hudgun` | Geartrooper | CC BY-NC 3.0 |
 | `models/quad` | Salatiel      | CC BY-SA 4.0 |
