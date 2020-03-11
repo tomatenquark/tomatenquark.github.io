@@ -55,6 +55,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `painkillah` | PainKillAH | CC Attribution-NonCommercial-ShareAlike 2.5 |
 | `particles/qreeves` | Quinton Reeves | CC BY-SA 3.0 |
 | `particles` | - | CC BY-SA 4.0 and do whatever you want |
+| `philipk` | Philip Klevestav | Do whatever you want |
 | `salatiel` | Salatiel | CC BY-SA 4.0 |
 | `sounds/ambience` | - | CC BY-SA     |
 | `sounds/ecrivain` | Écrivain | CC0 |
