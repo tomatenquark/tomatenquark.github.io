@@ -57,6 +57,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `particles/qreeves` | Quinton Reeves | CC BY-SA 3.0 |
 | `particles` | - | CC BY-SA 4.0 and do whatever you want |
 | `philipk` | Philip Klevestav | Do whatever you want |
+| `penguins` | SkiingPenguins | CC BY-SA 3.0 |
 | `salatiel` | Salatiel | CC BY-SA 4.0 |
 | `sounds/ambience` | - | CC BY-SA     |
 | `sounds/ecrivain` | Écrivain | CC0 |
@@ -69,6 +70,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `sounds/red_eclipse` | Red Eclipse Team | CC BY-SA 4.0 |
 | `sounds/xonotic` | Xonotic Team | GPL 3 |
 | `skyboxes/cruz` | cruZ | CC BY-SA 3.0 |
+| `skyboxes/lordkv` | lukv | CC BY-SA 3.0 |
 | `texture` | - | CC0 1.0 Universal (CC0 1.0) |
 | `tech1soc`| Sock | MIT license |
 | `textures/pk02` | Philip Klevestav | Creative Commons Attribution 3.0 |
