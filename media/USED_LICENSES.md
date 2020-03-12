@@ -60,6 +60,8 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `salatiel` | Salatiel | CC BY-SA 4.0 |
 | `sounds/ambience` | - | CC BY-SA     |
 | `sounds/ecrivain` | Écrivain | CC0 |
+| `sounds/jerimee` | Jerimee | CC BY 3.0 |
+| `sounds/jdagenet` | jdagenet | CC BY 3.0 |
 | `sounds/qubodup` | qubodup | CC BY-SA 4.0 |
 | `sounds/q009` | Q009 | CC BY-SA 4.0 |
 | `sounds/lordkv` | lukv | CC BY-SA 4.0 |
