@@ -23,6 +23,7 @@ The `essential` repository contains a minimal collection of media assets to run 
 | `blendbrush` | The Inexor Team | CC BY-SA 4.0 |
 | `caustics` | Calinou | CC0 |
 | `crosshairs` | The Inexor Team | CC BY-SA 4.0 |
+| `fohlen` | Fohlen | CC BY-SA 4.0 |
 | `fonts` | Tavmjong Bah | Public domain |
 | `golgotha` | The Golgotha project | Public domain |
 | `hud` | Lee Salzman, Salatiel | ZLIB, CC BY-SA 4.0 |
