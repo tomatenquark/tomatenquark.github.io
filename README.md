@@ -1,6 +1,14 @@
 # What is Tomatenquark
 
-`Tomatenquark` is a early stage project dedicated to the [Cube 2: Sauerbraten](http://sauerbraten.org/) game. `Tomatenquark`'s primary objective is to bring back ongoing development of the game and it's [amazing community](http://sauerworld.org/). This effort has be initiated by providing binaries of the current [svn](https://svn.code.sf.net/p/sauerbraten/code). Changes to the current `svn` will be incorporated into `Tomatenquark` in the foreseeable future.
+`Tomatenquark` describes itself as _"a community homage to Cube 2: Sauerbraten"_.
+
+The primary objective of `Tomatenquark` is to bring back ongoing development of the game and it's [amazing community](http://sauerworld.org/). 
+
+The project is a friendly fork of Sauerbraten. Changes to the [SVN](https://svn.code.sf.net/p/sauerbraten/code) will be incorporated into `Tomatenquark` in the foreseeable future. 
+
+#### Steam
+
+`Tomatenquark` aims to bring the game to [Steam](https://store.steampowered.com). We will update the download links as it becomes generally available.
 
 ### Obtaining Tomatenquark
 
