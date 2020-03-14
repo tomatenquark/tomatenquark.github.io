@@ -3,7 +3,7 @@
 * Game
   * [Gameplay](game/GAMEPLAY.md)
   * [Config](game/CONFIG.md)
-  * [Multiplayer](game/MULTIPLAYER.md)
+  * [Statistics](game/STATISTICS.md)
 * Media
   * [Mapping standards](media/MAPPING_STANDARDS.md)
   * [Licensing](media/LICENSING.md)
