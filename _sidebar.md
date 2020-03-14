@@ -7,3 +7,4 @@
 * Development
   * [Hardcoded paths](development/HARDCODED_PATHS.md)
   * [Applying patches from upstream](development/UPSTREAM_PATCHES.md)
+  * [Infrastructure](development/INFRASTRUCTURE.md)
