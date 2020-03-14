@@ -23,7 +23,7 @@ The `Tomatenquark` organization is structured into a multitude of repositories w
 | tomatenquark.github.io | The website of the project |
 | .github | Community related files |
 
-## Contributing
+## Types of contributions
 
 Contributions generally fall under two categories:
 
