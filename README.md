@@ -27,10 +27,19 @@ This can be fixed by installing the missing dependencies via `apt`.
 sudo apt install libsdl2-mixer-2.0-0 libsdl2-2.0-0 libsdl2-image-2.0-0
 ```
 
-### Development
+### Join us
 
-If you would like to contribute to the development of `Tomatenquark` (and thus the `sauerbraten` ecosystem) please note the following:
+We are very happy about everyone who wants to contribute!
 
-- there is a overall direction that this project aims at - see ["Tomatenquark roadmap"](https://hackmd.io/@tomatenquark/HkdEAMwEI)
+You've already accomplished the first step by reading thus far.
+
+The next step is joining our Discord!
+
+[<img src="./images/discord-brands.svg" height="100" width="100" alt="Discord"/>](https://discord.gg/47rkQar).
+
+Please also have note the following:
+
+- our [contribution](/CONTRIBUTING) guide
+- the ["Tomatenquark roadmap"](https://hackmd.io/@tomatenquark/HkdEAMwEI)
 - the project is in very early phases. Feedback is highly appreciated. You can talk to us on [Discord](https://discord.gg/47rkQar).
 - many things are undocumented right now. Be a little patient. Creating quality documentation takes time 🍷
