@@ -1,4 +1,4 @@
-## Hard-coded paths
+# Hard-coded paths
 
 `sauerbraten` currently ships with an extensive list of hardcoded paths. Below is a list of these paths:
 
