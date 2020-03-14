@@ -1,9 +1,6 @@
-Essential
----------
+# Used licenses
 
-The `essential` repository contains a minimal collection of media assets to run the game. It's goal is to create a free and libre version of the game that can be freely distributed.
-
-## Used licenses
+It's goal is to create a free and libre version of the game that can be freely distributed.
 
 ### `data`
 
