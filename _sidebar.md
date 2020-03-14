@@ -1,6 +1,7 @@
 * [What is Tomatenquark](README.md)
-* [Contributing](contributing/README.md)
+* [Contributing](CONTRIBUTING.md)
 * Media
+  * [Mapping standards](media/MAPPING_STANDARDS.md)
   * [Licensing](media/LICENSING.md)
   * [Used licenses](media/USED_LICENSES.md)
 * Development
