@@ -1,8 +1,8 @@
 * [What is Tomatenquark](README.md)
+* [Contributing](contributing/README.md)
 * Media
-  * [Licensing](media/LICENSING.md.md)
+  * [Licensing](media/LICENSING.md)
   * [Used licenses](media/USED_LICENSES.md)
-  * [Hardcoded paths](media/HARDCODED_PATHS.md)
 * Development
-  * [Organization structure](development/ORGANIZATION.md)
+  * [Hardcoded paths](development/HARDCODED_PATHS.md)
   * [Applying patches from upstream](development/UPSTREAM_PATCHES.md)
