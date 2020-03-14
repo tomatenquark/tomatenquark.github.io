@@ -1,5 +1,7 @@
 * [What is Tomatenquark](README.md)
 * [Contributing](CONTRIBUTING.md)
+* Game
+  * [Gameplay](game/GAMEPLAY.md)
 * Media
   * [Mapping standards](media/MAPPING_STANDARDS.md)
   * [Licensing](media/LICENSING.md)
