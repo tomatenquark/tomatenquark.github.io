@@ -23,8 +23,8 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `fohlen` | Fohlen | CC BY-SA 4.0 |
 | `fonts` | Tavmjong Bah | Public domain |
 | `golgotha` | The Golgotha project | Public domain |
-| `hud` | Lee Salzman, Salatiel | ZLIB, CC BY-SA 4.0 |
-| `icons` | Scnd101 | GNU LGPL v3 |
+| `hud` | Lee Salzman, Salatiel, Alexander "pix" Willing | ZLIB, CC BY-SA 4.0, CC BY-NC |
+| `icons` | Alexander "pix" Willing | CC BY-NC |
 | `loopix` | Loopix-Project | Free and commercial use |
 | `lunaran` | Matt "Lunaran"  Breit | Non-commercial use and do not distribute via CD |
 | `music/kai_engel` | Kai Engel | CC BY and CC BY-NC |
