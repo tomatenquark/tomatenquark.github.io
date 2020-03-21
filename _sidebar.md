@@ -3,6 +3,7 @@
 * Game
   * [Gameplay](game/GAMEPLAY.md)
   * [Config](game/CONFIG.md)
+  * [Editing](game/EDITING.md)
   * [Edit reference](game/EDITREF.md)
   * [Statistics](game/STATISTICS.md)
 * Media
