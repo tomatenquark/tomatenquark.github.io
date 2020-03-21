@@ -5,6 +5,7 @@
   * [Config](game/CONFIG.md)
   * [Editing](game/EDITING.md)
   * [Edit reference](game/EDITREF.md)
+  * [Models](game/MODELS.md)
   * [Statistics](game/STATISTICS.md)
 * Media
   * [Mapping standards](media/MAPPING_STANDARDS.md)
