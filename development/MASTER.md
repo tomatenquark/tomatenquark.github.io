@@ -1,6 +1,6 @@
-# Multiplayer
+# Master Server
 
-Thanks to [Origin](https://github.com/AngrySnout/) we have excellent statistics for `Tomatenquark`. Please refer to the [Tomatenquark tracker](//tracker.tomatenquark.org).
+The game provides a official master server at `master.tomatenquark.org`.
 
 ### Reporting players
 
