@@ -49,6 +49,7 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `models/vwep` | Markus Bekel | CC BY-NC-SA |
 | `models/flags` | Markus Bekel | CC BY-NC-SA |
 | `models/mapmodels/nieb` | Nieb | CC0 |
+| `models/mapmodels/ow` | wohSiesta | Do whatever you want |
 | `models/skull` | Jean Ayers | CC BY-SA 3.0 |
 | `models/xeno` | Xeno | Do whatever you want |
 | `painkillah` | PainKillAH | CC Attribution-NonCommercial-ShareAlike 2.5 |
@@ -74,6 +75,7 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `tech1soc`| Sock | MIT license |
 | `textures/pk02` | Philip Klevestav | Creative Commons Attribution 3.0 |
 | `textures/nieb` | Nieb | CC0 |
+| `textures/ow` | wohSiesta | Do whatever you want |
 | `textures/terrain_soc` | Simon 'Sock' O'Callaghan | CC by-nc-sa |
 | `texture/yves_allaire/` | Yves Allaire | Do whatever you want |
 | `trak5` | Georges 'TRaK' Grondin | MIT license |
