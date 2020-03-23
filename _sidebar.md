@@ -6,7 +6,6 @@
   * [Editing](game/EDITING.md)
   * [Edit reference](game/EDITREF.md)
   * [Models](game/MODELS.md)
-  * [Statistics](game/STATISTICS.md)
 * Media
   * [Mapping standards](media/MAPPING_STANDARDS.md)
   * [Licensing](media/LICENSING.md)
@@ -15,3 +14,4 @@
   * [Hardcoded paths](development/HARDCODED_PATHS.md)
   * [Applying patches from upstream](development/UPSTREAM_PATCHES.md)
   * [Infrastructure](development/INFRASTRUCTURE.md)
+  * [Master](development/MASTER.md)
