@@ -16,7 +16,7 @@ The project is a friendly fork of Sauerbraten. Changes to the [SVN](https://svn.
 
 | Macos | Windows | Ubuntu |
 | :---: | :-----: | :----: |
-| [<img src="./images/apple-brands.svg" height="100" width="100" alt="Macos"/>](https://github.com/Tomatenquark/code/releases/latest/download/sauerbraten_macos.zip) | [<img src="./images/windows-brands.svg" height="100" width="100" alt="Windows"/>](https://github.com/Tomatenquark/code/releases/latest/download/sauerbraten_windows.zip) | [<img src="./images/ubuntu-brands.svg" height="100" width="100" alt="Ubuntu"/>](https://github.com/Tomatenquark/code/releases/latest/download/sauerbraten_ubuntu.zip) |
+| [<img src="./images/apple-brands.svg" height="100" width="100" alt="Macos"/>](https://github.com/tomatenquark/code/releases/latest/download/tomatenquark_macos.zip) | [<img src="./images/windows-brands.svg" height="100" width="100" alt="Windows"/>](https://github.com/tomatenquark/code/releases/latest/download/tomatenquark_windows.zip) | [<img src="./images/ubuntu-brands.svg" height="100" width="100" alt="Ubuntu"/>](https://github.com/tomatenquark/code/releases/latest/download/tomatenquark_ubuntu.zip) |
 
 #### Additional installation instructions for Ubuntu
 
