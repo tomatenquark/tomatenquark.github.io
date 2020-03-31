@@ -24,7 +24,7 @@ The game may not run out of the box on Ubuntu due to missing dependencies.
 This can be fixed by installing the missing dependencies via `apt`.
 
 ```
-sudo apt install libsdl2-mixer-2.0-0 libsdl2-2.0-0 libsdl2-image-2.0-0
+sudo apt install libsdl2-mixer-2.0-0 libsdl2-2.0-0 libsdl2-image-2.0-0 libcurl4
 ```
 
 ### Join us
