@@ -72,6 +72,7 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `sounds/xonotic` | Xonotic Team | GPL 3 |
 | `skyboxes/cruz` | cruZ | CC BY-SA 3.0 |
 | `skyboxes/lordkv` | lukv | CC BY-SA 3.0 |
+| `skyboxes/djtex` | djtex | Public domain |
 | `texture` | - | CC0 1.0 Universal (CC0 1.0) |
 | `tech1soc`| Sock | MIT license |
 | `textures/pk02` | Philip Klevestav | Creative Commons Attribution 3.0 |
