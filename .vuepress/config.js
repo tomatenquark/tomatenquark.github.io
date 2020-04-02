@@ -23,7 +23,7 @@ const getChildren = (parentPath) => {
 const config = {
     title,
     head: [
-        ['link', { rel: 'icon', href: `/assets/favicon.ico` }],
+        ['link', { rel: 'icon', href: '/favicon.ico' }],
         ['meta', { prefix: ogprefix, property: 'og:title', content: title }],
         ['meta', { prefix: ogprefix, property: 'twitter:title', content: title }],
         ['meta', { prefix: ogprefix, property: 'og:type', content: 'article' }],
@@ -43,6 +43,10 @@ const config = {
     themeConfig: {
         sidebarDepth: 4,
         sidebar: [
+            {
+                title: 'Servers',
+                path: '/SERVERS'
+            },
             {
                 title: 'Contributing',
                 path: '/CONTRIBUTING'
