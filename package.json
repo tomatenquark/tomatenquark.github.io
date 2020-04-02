@@ -1,0 +1,18 @@
+{
+  "name": "tomatenquark.github.io",
+  "version": "0.0.1",
+  "description": "The website for Tomatenquark",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomatenquark/tomatenquark.github.io.git"
+  },
+  "author": "The Tomatenquark Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomatenquark/tomatenquark.github.io/issues"
+  },
+  "homepage": "https://github.com/tomatenquark/tomatenquark.github.io#readme",
+  "devDependencies": {
+    "glob": "^7.1.6"
+  }
+}
