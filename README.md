@@ -8,7 +8,7 @@ actionLink: /PROJECT.html#obtaining-tomatenquark
 features:
 - title: Old school deathmatch
   details: Fast paced deathmatch inspired by Quake
-- title: Coop editing
+- title: Cooperative editor
   details: Amazing editor with multiplayer support
 - title: Free as in free
   details: The game and all of it's contents are free as in libre and free software
