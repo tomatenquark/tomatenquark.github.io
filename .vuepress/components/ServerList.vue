@@ -69,15 +69,14 @@ export default {
     this.updateInterval = setInterval(this.updateServerList, 5000);
   },
   methods: {
-    async updateServerList() {
-      try {
-        const response = await fetch(this.apiUrl);
-        const data = await response.json();
-        this.servers = data;
-        this.e = null;
-      } catch (e) {
-        this.error = e;
-      }
+    updateServerList() {
+      fetch(this.apiUrl)
+        .then(response => response.json())
+        .then(data => {
+          this.servers = data;
+          this.error = null;
+        })
+        .catch(e => (this.error = e));
     }
   }
 };
