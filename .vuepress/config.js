@@ -42,7 +42,17 @@ const config = {
     ],
     themeConfig: {
         sidebarDepth: 4,
+        nav: [
+            {
+                text: 'Wiki',
+                link: '/PROJECT'
+            },
+        ],
         sidebar: [
+            {
+                title: 'Project',
+                path: '/PROJECT',
+            },
             {
                 title: 'Servers',
                 path: '/SERVERS'
