@@ -1,4 +1,4 @@
-# What is Tomatenquark
+<img src="./images/tomatenquark.png"  alt="Logo" style="margin-left: auto; margin-right: auto; display: block;"/>
 
 `Tomatenquark` describes itself as _"a community homage to Cube 2: Sauerbraten"_.
 
