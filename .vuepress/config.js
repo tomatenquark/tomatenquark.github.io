@@ -44,18 +44,22 @@ const config = {
         sidebarDepth: 4,
         nav: [
             {
+                text: 'Blog',
+                link: '/POSTS/'
+            },
+            {
+                text: 'Servers',
+                link: '/SERVERS'
+            },
+            {
                 text: 'Wiki',
                 link: '/PROJECT'
-            },
+            }
         ],
         sidebar: [
             {
                 title: 'Project',
                 path: '/PROJECT',
-            },
-            {
-                title: 'Servers',
-                path: '/SERVERS'
             },
             {
                 title: 'Contributing',
