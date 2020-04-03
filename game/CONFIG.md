@@ -163,6 +163,24 @@ Sets the openness of the server to N. N=1 disables mastermodes 2 (locked) and 3 
 
 ## Console Commands
 
+### downloadmaps
+
+`downloadmaps 1/0`
+
+Enables or disables automatic download of customized content made available by servers (enabled by default).
+
+### servercontent
+
+`servercontent`
+
+Returns the host used by the current server to make the customized content available.
+
+### showserverhost
+
+`showserverhost 1/0`
+
+Enables or disables the "host" and "port" fields in the server browser (disabled by default).
+
 ### bind / editbind
 
 ```
