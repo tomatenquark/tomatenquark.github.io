@@ -60,6 +60,7 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `philipk` | Philip Klevestav | Do whatever you want |
 | `penguins` | SkiingPenguins | CC BY-SA 3.0 |
 | `salatiel` | Salatiel | CC BY-SA 4.0 |
+| `siesta`   | wohSiesta | CC BY-SA 4.0 |
 | `sounds/ambience` | - | CC BY-SA     |
 | `sounds/ecrivain` | Écrivain | CC0 |
 | `sounds/jerimee` | Jerimee | CC BY 3.0 |
