@@ -28,7 +28,6 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `loopix` | Loopix-Project | Free and commercial use |
 | `lunaran` | Matt "Lunaran"  Breit | Non-commercial use and do not distribute via CD |
 | `music/kai_engel` | Kai Engel | CC BY and CC BY-NC |
-| `models/ao1`   | Pointblank | CC BY-S |
 | `models/snoutx10k` | John 'geartrooper' Siar | CC BY 3.0 |
 | `models/ammo`  | Markus Bekel | CC BY-NC-SA |
 | `models/barreldebris` | Salatiel | CC BY-SA 4.0 |
