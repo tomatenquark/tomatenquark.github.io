@@ -6,17 +6,13 @@ The primary objective of `Tomatenquark` is to bring back ongoing development of 
 
 The project is a friendly fork of Sauerbraten. Changes to the [SVN](https://svn.code.sf.net/p/sauerbraten/code) will be incorporated into `Tomatenquark` in the foreseeable future. 
 
-## Steam
-
-`Tomatenquark` aims to bring the game to [Steam](https://store.steampowered.com). We will update the download links as it becomes generally available.
-
 ## Obtaining Tomatenquark
 
 `Tomatenquark` can easily be obtained via GitHub releases. Please download the game for your platform below:
 
-| Macos | Windows | Ubuntu |
-| :---: | :-----: | :----: |
-| [<img src="./images/apple-brands.svg" height="100" width="100" alt="Macos"/>](https://github.com/tomatenquark/code/releases/latest/download/tomatenquark_macos.zip) | [<img src="./images/windows-brands.svg" height="100" width="100" alt="Windows"/>](https://github.com/tomatenquark/code/releases/latest/download/tomatenquark_windows.zip) | [<img src="./images/ubuntu-brands.svg" height="100" width="100" alt="Ubuntu"/>](https://github.com/tomatenquark/code/releases/latest/download/tomatenquark_ubuntu.zip) |
+| Steam | Macos | Windows | Ubuntu |
+| :---: | :---: | :-----: | :----: |
+| [<img src="./images/steam-brands.svg" height="100" width="100" alt="Steam"/>](https://store.steampowered.com/app/1274540/Tomatenquark) | [<img src="./images/apple-brands.svg" height="100" width="100" alt="Macos"/>](https://github.com/tomatenquark/code/releases/latest/download/tomatenquark_macos.zip) | [<img src="./images/windows-brands.svg" height="100" width="100" alt="Windows"/>](https://github.com/tomatenquark/code/releases/latest/download/tomatenquark_windows.zip) | [<img src="./images/ubuntu-brands.svg" height="100" width="100" alt="Ubuntu"/>](https://github.com/tomatenquark/code/releases/latest/download/tomatenquark_ubuntu.zip) |
 
 ### Additional installation instructions for Ubuntu
 
