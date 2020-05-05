@@ -70,7 +70,7 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `sounds/lordkv` | lukv | CC BY-SA 4.0 |
 | `sounds/soundsnap` | - | [Soundsnap license](https://www.soundsnap.com/licence) |
 | `sounds/red_eclipse` | Red Eclipse Team | CC BY-SA 4.0 |
-| `sounds/xonotic` | Xonotic Team | GPL 3 |
+| `sounds/ogrobastard` | Ogrobastard      | CC BY-SA 4.0 |
 | `skyboxes/cruz` | cruZ | CC BY-SA 3.0 |
 | `skyboxes/lordkv` | lukv | CC BY-SA 3.0 |
 | `skyboxes/djtex` | Djakk | Public domain |
