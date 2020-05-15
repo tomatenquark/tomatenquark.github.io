@@ -9,7 +9,7 @@ sidebar: false
 
 Dear Tomatoes,
 
-after a fair amount of delay we are pleased to announce that Tomatenquark will be released to the general public on March 24th. This release also includes the hide & seek mode, alongside many, many other improvements.
+after a fair amount of delay we are pleased to announce that Tomatenquark will be released to the general public on May 24th. This release also includes the hide & seek mode, alongside many, many other improvements.
 
 ![release fragfest banner](../images/posts/tomatenquark_releasebanner.png "release fragfest banner")
 
