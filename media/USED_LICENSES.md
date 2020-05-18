@@ -68,7 +68,6 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `sounds/qubodup` | qubodup | CC BY-SA 4.0 |
 | `sounds/q009` | Q009 | CC BY-SA 4.0 |
 | `sounds/lordkv` | lukv | CC BY-SA 4.0 |
-| `sounds/soundsnap` | - | [Soundsnap license](https://www.soundsnap.com/licence) |
 | `sounds/red_eclipse` | Red Eclipse Team | CC BY-SA 4.0 |
 | `sounds/ogrobastard` | Ogrobastard      | CC BY-SA 4.0 |
 | `skyboxes/cruz` | cruZ | CC BY-SA 3.0 |
