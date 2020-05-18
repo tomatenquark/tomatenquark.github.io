@@ -45,7 +45,7 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `models/psionic` | Psionic | Public domain |
 | `models/switch1` | Kurtis Kesler | CC AT-NC-SA |
 | `models/objects` | - | CC AT-NC-SA |
-| `models/vwep` | Markus Druffel | CC BY-NC-SA |
+| `models/vwep` | Geartrooper | CC BY-NC-SA |
 | `models/flags` | Markus Druffel | CC BY-SA 4.0 |
 | `models/mapmodels/nieb` | Nieb | CC0 |
 | `models/mapmodels/ow` | wohSiesta | Public domain |
