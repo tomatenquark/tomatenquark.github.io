@@ -37,6 +37,7 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `models/debris` | Salatiel | CC BY-SA 4.0 |
 | `models/makke` | Markus Druffel | CC BY-SA 4.0 |
 | `models/mitaman` | MitaMAN (Mike Poeschl) | Public domain |
+| `models/mrfixit` | Geartrooper | CC BY-NC |
 | `models/gibs` | Salatiel | CC BY-SA 4.0 |
 | `models/health` | Markus Druffel | CC BY-SA 4.0 |
 | `models/hudgun` | Geartrooper | CC BY-NC 3.0 |
