@@ -7,7 +7,7 @@ It's goal is to create a free and libre version of the game that can be freely d
 | File | Author | License |
 | ---- | ------ | ------- |
 | `.cfg` | -    | ZLIB    |
-| `guioverlay.png`, `guiskin.png`, `guislider.png` | Markus "makkE" Bekel | Creative Commons Deed / Attribution Non-commercial Share-Alike ( at-nc-sa ) |
+| `guioverlay.png`, `guiskin.png`, `guislider.png` | Markus "makkE" Bekel | CC BY-SA 4.0 |
 | ` data/background_detail.png`, ` data/background_decal.png`, ` data/background.png`, ` data/logo.png`, ` data/icon.png` | The Inexor Team | CC BY-SA 4.0 |
 | `data/*.png` | The Tomatenquark Team | CC BY-SA 4.0 |
 
@@ -23,8 +23,8 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `fohlen` | Fohlen | CC BY-SA 4.0 |
 | `fonts` | Tavmjong Bah | Public domain |
 | `golgotha` | The Golgotha project | Public domain |
-| `hud` | Lee Salzman, Salatiel, Alexander "pix" Willing | ZLIB, CC BY-SA 4.0, CC BY-NC |
-| `icons` | Alexander "pix" Willing, wohSiesta, Salatiel | CC BY-NC, CC BY-SA 4.0, CC BY-SA 4.0 |
+| `hud` | Lee Salzman, Salatiel, Alexander "pix" Willing | ZLIB, CC BY-SA 4.0 |
+| `icons` | Alexander "pix" Willing, wohSiesta, Salatiel | CC BY-SA 4.0 |
 | `loopix` | Loopix-Project | Free and commercial use |
 | `lunaran` | Matt "Lunaran"  Breit | Non-commercial use and do not distribute via CD |
 | `music/kai_engel` | Kai Engel | CC BY and CC BY-NC |
