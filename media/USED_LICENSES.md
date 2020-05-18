@@ -49,7 +49,7 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `models/flags` | Markus Druffel | CC BY-SA 4.0 |
 | `models/mapmodels/nieb` | Nieb | CC0 |
 | `models/mapmodels/ow` | wohSiesta | Public domain |
-| `models/mapmodels/sitters` | W. Sitters | GNU GPL 2, CC BY 3.0 |
+| `models/mapmodels/sitters` | W. Sitters | CC BY 3.0 |
 | `models/mapmodels/svarog` | Svarog | CC BY-SA 4.0 |
 | `models/skull` | Jean Ayers | CC BY-SA 3.0 |
 | `models/xeno` | Xeno | Public domain |
