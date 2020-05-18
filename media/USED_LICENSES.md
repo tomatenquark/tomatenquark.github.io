@@ -29,24 +29,24 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `lunaran` | Matt "Lunaran"  Breit | Non-commercial use and do not distribute via CD |
 | `music/kai_engel` | Kai Engel | CC BY and CC BY-NC |
 | `models/snoutx10k` | John 'geartrooper' Siar | CC BY 3.0 |
-| `models/ammo`  | Markus Bekel | CC BY-NC-SA |
+| `models/ammo`  | Markus Druffel | CC BY-SA 4.0 |
 | `models/barreldebris` | Salatiel | CC BY-SA 4.0 |
-| `models/boost` | Markus Bekel | CC BY-NC-SA |
+| `models/boost` | Markus Druffel | CC BY-SA 4.0 |
 | `models/armor` | - | GNU GPL 2 |
 | `models/dcp`   | Wouter van Oordmerssen aka Aardappel | Public domain |
 | `models/debris` | Salatiel | CC BY-SA 4.0 |
-| `models/makke` | Markus Bekel | CC BY-NC 2.5 |
+| `models/makke` | Markus Druffel | CC BY-SA 4.0 |
 | `models/mitaman` | MitaMAN (Mike Poeschl) | Public domain |
 | `models/gibs` | Salatiel | CC BY-SA 4.0 |
-| `models/health` | Markus Bekel | CC BY-NC-SA |
+| `models/health` | Markus Druffel | CC BY-SA 4.0 |
 | `models/hudgun` | Geartrooper | CC BY-NC 3.0 |
 | `models/quad` | Salatiel      | CC BY-SA 4.0 |
-| `models/projectiles` | Markus Bekel | CC BY-NC-SA |
+| `models/projectiles` | Markus Druffel | CC BY-SA 4.0 |
 | `models/psionic` | Psionic | Public domain |
 | `models/switch1` | Kurtis Kesler | CC AT-NC-SA |
 | `models/objects` | - | CC AT-NC-SA |
-| `models/vwep` | Markus Bekel | CC BY-NC-SA |
-| `models/flags` | Markus Bekel | CC BY-NC-SA |
+| `models/vwep` | Markus Druffel | CC BY-NC-SA |
+| `models/flags` | Markus Druffel | CC BY-SA 4.0 |
 | `models/mapmodels/nieb` | Nieb | CC0 |
 | `models/mapmodels/ow` | wohSiesta | Public domain |
 | `models/mapmodels/sitters` | W. Sitters | GNU GPL 2, CC BY 3.0 |
