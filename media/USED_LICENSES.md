@@ -25,28 +25,28 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `golgotha` | The Golgotha project | Public domain |
 | `hud` | Lee Salzman, Salatiel, Alexander "pix" Willing | ZLIB, CC BY-SA 4.0 |
 | `icons` | Alexander "pix" Willing, wohSiesta, Salatiel | CC BY-SA 4.0 |
-| `loopix` | Loopix-Project | Free and commercial use |
-| `lunaran` | Matt "Lunaran"  Breit | Non-commercial use and do not distribute via CD |
-| `music/kai_engel` | Kai Engel | CC BY and CC BY-NC |
+| `loopix` | Loopix-Project | **Free and commercial use** |
+| `lunaran` | Matt "Lunaran"  Breit | **Non-commercial use and do not distribute via CD** |
+| `music/kai_engel` | Kai Engel | **CC BY and CC BY-NC** |
 | `models/snoutx10k` | John 'geartrooper' Siar | CC BY 3.0 |
 | `models/ammo`  | Markus Druffel | CC BY-SA 4.0 |
 | `models/barreldebris` | Salatiel | CC BY-SA 4.0 |
 | `models/boost` | Markus Druffel | CC BY-SA 4.0 |
-| `models/armor` | - | GNU GPL 2 |
+| `models/armor` | - | **GNU GPL 2** |
 | `models/dcp`   | Wouter van Oordmerssen aka Aardappel | Public domain |
 | `models/debris` | Salatiel | CC BY-SA 4.0 |
 | `models/makke` | Markus Druffel | CC BY-SA 4.0 |
 | `models/mitaman` | MitaMAN (Mike Poeschl) | Public domain |
-| `models/mrfixit` | Geartrooper | CC BY-NC |
+| `models/mrfixit` | Geartrooper | **CC BY-NC** |
 | `models/gibs` | Salatiel | CC BY-SA 4.0 |
 | `models/health` | Markus Druffel | CC BY-SA 4.0 |
 | `models/hudgun` | Geartrooper | CC BY-NC 3.0 |
 | `models/quad` | Salatiel      | CC BY-SA 4.0 |
 | `models/projectiles` | Markus Druffel | CC BY-SA 4.0 |
 | `models/psionic` | Psionic | Public domain |
-| `models/switch1` | Kurtis Kesler | CC AT-NC-SA |
-| `models/objects` | - | CC AT-NC-SA |
-| `models/vwep` | Geartrooper | CC BY-NC-SA |
+| `models/switch1` | Kurtis Kesler | **CC AT-NC-SA** |
+| `models/objects` | - | CC BY-SA 4.0 |
+| `models/vwep` | Geartrooper | **CC BY-NC-SA** |
 | `models/flags` | Markus Druffel | CC BY-SA 4.0 |
 | `models/mapmodels/nieb` | Nieb | CC0 |
 | `models/mapmodels/ow` | wohSiesta | Public domain |
@@ -54,7 +54,7 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `models/mapmodels/svarog` | Svarog | CC BY-SA 4.0 |
 | `models/skull` | Jean Ayers | CC BY-SA 3.0 |
 | `models/xeno` | Xeno | Public domain |
-| `painkillah` | PainKillAH | CC Attribution-NonCommercial-ShareAlike 2.5 |
+| `painkillah` | PainKillAH | **CC Attribution-NonCommercial-ShareAlike 2.5** |
 | `particles/qreeves` | Quinton Reeves | CC BY-SA 3.0 |
 | `particles` | - | CC BY-SA 4.0, public domain |
 | `philipk` | Philip Klevestav | Public domain |
@@ -79,7 +79,7 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `textures/pk02` | Philip Klevestav | Creative Commons Attribution 3.0 |
 | `textures/nieb` | Nieb | CC0 |
 | `textures/ow` | wohSiesta | CC BY-SA 4.0 |
-| `textures/terrain_soc` | Simon 'Sock' O'Callaghan | CC by-nc-sa |
-| `texture/yves_allaire/` | Yves Allaire | Do whatever you want |
+| `textures/terrain_soc` | Simon 'Sock' O'Callaghan | **CC by-nc-sa** |
+| `texture/yves_allaire/` | Yves Allaire | Public domain |
 | `trak5` | Georges 'TRaK' Grondin | MIT license |
 | `tomek` | Tomek | Creative Commons Attribution |
