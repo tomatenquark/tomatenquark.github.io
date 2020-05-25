@@ -10,11 +10,14 @@ The project is a friendly fork of Sauerbraten. Changes to the [SVN](https://svn.
 
 `Tomatenquark` can easily be obtained via GitHub releases. Please download the game for your platform below:
 
-| Steam | Macos | Windows | Ubuntu |
+| Steam | Macos | Windows | Linux  |
 | :---: | :---: | :-----: | :----: |
-| [<img src="./images/steam-brands.svg" height="100" width="100" alt="Steam"/>](https://store.steampowered.com/app/1274540/Tomatenquark) | [<img src="./images/apple-brands.svg" height="100" width="100" alt="Macos"/>](https://github.com/tomatenquark/code/releases/latest/download/tomatenquark_macos.zip) | [<img src="./images/windows-brands.svg" height="100" width="100" alt="Windows"/>](https://github.com/tomatenquark/code/releases/latest/download/tomatenquark_windows.zip) | [<img src="./images/ubuntu-brands.svg" height="100" width="100" alt="Ubuntu"/>](https://github.com/tomatenquark/code/releases/latest/download/tomatenquark_ubuntu.zip) |
+| [<img src="./images/steam-brands.svg" height="100" width="100" alt="Steam"/>](https://store.steampowered.com/app/1274540/Tomatenquark) | [<img src="./images/apple-brands.svg" height="100" width="100" alt="Macos"/>](https://github.com/tomatenquark/code/releases/latest/download/tomatenquark_macos.zip) | [<img src="./images/windows-brands.svg" height="100" width="100" alt="Windows"/>](https://github.com/tomatenquark/code/releases/latest/download/tomatenquark_windows.zip) | [<img src="./images/linux-brands.svg" height="100" width="100" alt="Linux bundle"/>](https://github.com/tomatenquark/code/releases/latest/download/tomatenquark_ubuntu.zip) |
 
-### Additional installation instructions for Ubuntu
+### Additional installation instructions for Linux
+
+Please note that the game is built for, and tested only on Ubuntu, hence these instructions are for Ubuntu distributions.
+It may work on other distributions as well, but we give no guarantees.
 
 The game may not run out of the box on Ubuntu due to missing dependencies.
 This can be fixed by installing the missing dependencies via `apt`.
