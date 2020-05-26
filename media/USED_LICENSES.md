@@ -21,7 +21,7 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `crosshairs` | The Inexor Team | CC BY-SA 4.0 |
 | `fonts` | Tavmjong Bah | Public domain |
 | `hud` | Lee Salzman, Salatiel, Alexander "pix" Willing | ZLIB, CC BY-SA 4.0 |
-| `icons` | Alexander "pix" Willing, wohSiesta, Salatiel | CC BY-SA 4.0 |
+| `icons` | Alexander "pix" Willing, wohSiesta, Salatiel, icons8.com | CC BY-SA 4.0, **Free and commercial use with attribution** |
 | `models/ammo`  | Markus Druffel | CC BY-SA 4.0 |
 | `models/armor` | - | **GNU GPL 2** |
 | `models/barreldebris` | Salatiel | CC BY-SA 4.0 |
@@ -79,6 +79,6 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `textures/siesta`   | wohSiesta | CC BY-SA 4.0 |
 | `textures/tech1soc`| Sock | MIT license |
 | `textures/terrain_soc` | Simon 'Sock' O'Callaghan | **CC by-nc-sa** |
-| `textures/trak5` | Georges 'TRaK' Grondin | MIT license |
 | `textures/tomek` | Tomek | Creative Commons Attribution |
+| `textures/trak5` | Georges 'TRaK' Grondin | MIT license |
 | `textures/yves_allaire` | Yves Allaire | Public domain |
