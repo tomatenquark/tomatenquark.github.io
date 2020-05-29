@@ -2,7 +2,7 @@
 
 `Tomatenquark` describes itself as _"a community homage to Cube 2: Sauerbraten"_.
 
-The primary objective of `Tomatenquark` is to bring back ongoing development of the game and it's [amazing community](http://sauerworld.org/). 
+The primary objective of `Tomatenquark` is to bring back ongoing development of the game and its [amazing community](http://sauerworld.org/). 
 
 The project is a friendly fork of Sauerbraten. Changes to the [SVN](https://svn.code.sf.net/p/sauerbraten/code) will be incorporated into `Tomatenquark` in the foreseeable future. 
 
