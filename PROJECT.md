@@ -40,5 +40,5 @@ Please also have note the following:
 
 - our [contribution](/CONTRIBUTING) guide
 - the ["Tomatenquark roadmap"](https://hackmd.io/@tomatenquark/HkdEAMwEI)
-- the project is in very early phases. Feedback is highly appreciated. You can talk to us on [Discord](https://discord.gg/47rkQar).
+- Feedback is highly appreciated. You can talk to us on [Discord](https://discord.gg/47rkQar).
 - many things are undocumented right now. Be a little patient. Creating quality documentation takes time 🍷
