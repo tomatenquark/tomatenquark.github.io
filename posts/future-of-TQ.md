@@ -42,11 +42,12 @@ Finally, I would like to announce starting on **Friday, November 13th** at **8pm
 
  All are welcome to join us for some good old-fashioned fps fun. Allowing the community a time to congregate should help with some of our "population issues" and bring the fans of this game together!
 
+![weekly-ff]
+
 🍅Hope to see you all there🍅
 
-![weekly-ff]
 
 [tq-banner]: https://steamcdn-a.akamaihd.net/steam/apps/1274540/header.jpg?t=1588988887
 [tq-logo]: https://raw.githubusercontent.com/tomatenquark/tomatenquark.github.io/site/images/tomatenquark.png
-[fff-banner]: https://imgur.com/6kQFvJ5 
-[weekly-ff]: https://imgur.com/b1BECvg
+[fff-banner]: https://i.imgur.com/6kQFvJ5.png
+[weekly-ff]: https://i.imgur.com/b1BECvg.png
