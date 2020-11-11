@@ -46,5 +46,5 @@ Finally, I would like to announce starting on **Friday, November 13th** at **8pm
 ![weekly-ff]
 
 [tq-logo]: https://raw.githubusercontent.com/tomatenquark/tomatenquark.github.io/site/images/tomatenquark.png
-[fff-banner]: https://raw.githubusercontent.com/tomatenquark/tomatenquark.github.io/site/images/friday-frag-fest.png
-[weekly-ff]: https://raw.githubusercontent.com/tomatenquark/tomatenquark.github.io/site/images/weeklyfragfests_friday13_banner.png 
+[fff-banner]: https://raw.githubusercontent.com/tomatenquark/tomatenquark.github.io/site/images/posts/friday-frag-fest.png
+[weekly-ff]: https://raw.githubusercontent.com/tomatenquark/tomatenquark.github.io/site/images/posts/weeklyfragfests_friday13_banner.png 
