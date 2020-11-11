@@ -35,12 +35,16 @@ We also have a brand new [Mastadon](https://mastodon.technology/web/accounts/353
 
 ----
 
+![fff-banner]
+
 Finally, I would like to announce starting on **Friday, November 13th** at **8pm EST**, the first weekly **Friday Frag Fest**.
 
  All are welcome to join us for some good old-fashioned fps fun. Allowing the community a time to congregate should help with some of our "population issues" and bring the fans of this game together!
 
-🍅Hope to see you all there!🍅
+🍅Hope to see you all there🍅
 
-![tq-logo]
+![weekly-ff]
 
 [tq-logo]: https://raw.githubusercontent.com/tomatenquark/tomatenquark.github.io/site/images/tomatenquark.png
+[fff-banner]: https://raw.githubusercontent.com/tomatenquark/tomatenquark.github.io/site/images/friday-frag-fest.png
+[weekly-ff]: https://raw.githubusercontent.com/tomatenquark/tomatenquark.github.io/site/images/weeklyfragfests_friday13_banner.png 
