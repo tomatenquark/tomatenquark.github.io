@@ -24,7 +24,7 @@ The team is working on transitioning to a new management structure in the wake o
 
 Special thanks to Fohlen for everything he's done and all the support he's continuing to provide in the transition process, as well as to everyone else who's work has gotten us to where we are today. 
 
-For now development will focus primarily on maintaining parody with Sauerbraten as it prepares for it's new release, and as we bring new teamembers up to speed. 
+For now development will focus primarily on maintaining parity with Sauerbraten as it prepares for it's new release, and as we bring new team members up to speed. 
 
 ### Community First, Always
 ---
