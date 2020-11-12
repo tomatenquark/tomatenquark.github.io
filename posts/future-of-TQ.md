@@ -13,7 +13,7 @@ Howdy Tomatoes🍅,
 
 First off, I want to assure that Tomatenquark is still very much alive.
 
-![tq-header](../images/header "tomatenquark header")
+![tq-header](../images/header.jpg "tomatenquark header")
 
 
 ### New Management 
