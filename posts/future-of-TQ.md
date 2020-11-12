@@ -5,13 +5,16 @@ date: 11-12-20 (mm-dd-yy)
 sidebar: false
 ---
  
-# The Future of Tomatenquark 
+## The Future of Tomatenquark 
+###### author delphik
+----
 
 Howdy Tomatoes🍅,
 
 First off, I want to assure that Tomatenquark is still very much alive.
 
-![tq-banner]
+![tq-header](../images/header "tomatenquark header")
+
 
 ### New Management 
 ----
@@ -32,22 +35,20 @@ This is and will remain a community first project, and we're going to need your 
 
 We also have a brand new [Mastadon](https://mastodon.technology/web/accounts/353138) account, so feel free to send us a toot at [tomatenquark@mastadon.technology](https://mastodon.technology/web/accounts/353138) !
 
+![weekly-ff](../images/posts/weeklyfragfests_friday13_banner.png  "weekly frag fast event")
+
 ### Annoncing 🎮 **Friday Frag Fests** 🎮
 
 ----
-
-![fff-banner]
 
 Finally, I would like to announce starting on **Friday, November 13th** at **8pm EST**, the first weekly **Friday Frag Fest**.
 
  All are welcome to join us for some good old-fashioned fps fun. Allowing the community a time to congregate should help with some of our "population issues" and bring the fans of this game together!
 
-![weekly-ff]
 
 🍅Hope to see you all there🍅
 
 
-[tq-banner]: https://steamcdn-a.akamaihd.net/steam/apps/1274540/header.jpg?t=1588988887
-[tq-logo]: https://raw.githubusercontent.com/tomatenquark/tomatenquark.github.io/site/images/tomatenquark.png
-[fff-banner]: https://i.imgur.com/6kQFvJ5.png
-[weekly-ff]: https://i.imgur.com/b1BECvg.png
+![fff-banner](../images/posts/friday-frag-fest.png "friday frag fest")
+
+
