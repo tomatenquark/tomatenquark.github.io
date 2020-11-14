@@ -22,7 +22,7 @@ It's goal is to create a free and libre version of the game that can be freely d
 | `fonts` | Tavmjong Bah | Public domain |
 | `hud` | Lee Salzman, Salatiel, Alexander "pix" Willing | ZLIB, CC BY-SA 4.0 |
 | `icons` | Alexander "pix" Willing, wohSiesta, Salatiel, icons8.com | CC BY-SA 4.0, **Free and commercial use with attribution** |
-| `models/ammo`  | Markus Druffel | CC BY-SA 4.0 |
+| `models/ammo`  | wohSiesta | CC0 |
 | `models/armor` | - | **GNU GPL 2** |
 | `models/barreldebris` | Salatiel | CC BY-SA 4.0 |
 | `models/boost` | Markus Druffel | CC BY-SA 4.0 |
