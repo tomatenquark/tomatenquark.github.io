@@ -48,6 +48,12 @@ Select cubes when set to 1. stop selection when set to 0
 
 Select cubes and entities. (default: left mouse button)
 
+### editinview
+
+``editinview B``
+
+Allows editing geometry outside the field of view.
+
 ### selcorners
 
 `selcorners`
@@ -58,13 +64,13 @@ Select the corners of cubes. (default: middle mouse button)
 
 `moving B`
 
-set to 1 to turn on. when on, it will move the selection (cubes not included) to another position. the plane on which it will move on is dependent on which side of the selection your cursor was on when turned on. set to 0 to turn off moving. if cursor is not on selection when turned on, moving will automatically be turned off.
+Set to 1 to turn on. when on, it will move the selection (cubes not included) to another position. the plane on which it will move on is dependent on which side of the selection your cursor was on when turned on. set to 0 to turn off moving. if cursor is not on selection when turned on, moving will automatically be turned off.
 
 ### editmovedrag
 
 `editmovedrag`
 
-if cursor is in current cube selection, holding will move selection. otherwise will create new selection.
+If cursor is in current cube selection, holding will move selection. otherwise will create new selection.
 
 ### cancelsel
 
@@ -94,7 +100,7 @@ Changes the texture on current selection by browsing through a list of textures 
 
 `gettex`
 
-moves the texture on the current selection to the top of the texture list. Useful for quickly texturing things using already textured geometry.
+Moves the texture on the current selection to the top of the texture list. Useful for quickly texturing things using already textured geometry.
 
 ### selextend
 
@@ -106,7 +112,7 @@ Extend current selection to include the cursor.
 
 `passthrough`
 
-normally cubes of equal size to the grid are given priority when selecting. passthrough removes this priority while held down so that the cube the cursor is directly on is selected. Holding down passthrough will also give priority to cube over entities. (default: alt)
+Normally cubes of equal size to the grid are given priority when selecting. passthrough removes this priority while held down so that the cube the cursor is directly on is selected. Holding down passthrough will also give priority to cube over entities. (default: alt)
 
 ### reorient
 
@@ -130,7 +136,7 @@ Rotates the selection 90 degrees around the side of the white box. Automatically
 
 `undo`
 
-Multi-level undo of any of the changes caused by the above operations (default: z [or u]).
+Multi-level undo of any of the changes caused by the above operations (default: z \[or u\]).
 
 ### redo
 
@@ -189,7 +195,7 @@ Currently the following types of materials are supported:
 
 `recalc`
 
-Recalculates scene geometry. This also will regenerate any envmaps to reflect the changed geometry, and fix any geometry with "bumpenv*" shaders to use the closest available envmaps. This command is also implicitly used by calclight.
+Recalculates scene geometry. This also will regenerate any envmaps to reflect the changed geometry, and fix any geometry with "bumpenv\*" shaders to use the closest available envmaps. This command is also implicitly used by calclight.
 
 ### havesel
 
@@ -215,21 +221,33 @@ Sets the position of the selection.
 
 Moves the selection towards a direction.
 
+### selsave
+
+``selsave``
+
+Saves current selection hilite.
+
+### selswap
+
+```selswap```
+
+Replaces current selection with saved selection (/selsave).
+
 ### gotosel
 
 `gotosel`
 
 Goes to the position of the currently selected cube or entity.
 
-### savebrush
+### saveprefab
 
-`savebrush S`
+`saveprefab S`
 
 Saves the current selection as an octa-brush named S.
 
-### pastebrush
+### pasteprefab
 
-`pastebrush S`
+`pasteprefab S`
 
 Pastes the octa-brush named S.
 
@@ -291,7 +309,7 @@ Adds a new entity where (x,y,z) is determined by the current dropent configurati
 
 `delent`
 
-deletes the selected entities
+Deletes the selected entities.
 
 ### entflip
 
@@ -347,7 +365,7 @@ If N = 0, stops all platforms or elevators with tag T. If N = 1, causes all plat
 
 Takes a boolean expression as argument. Selects all entities that evaluate to true for the given expression. examples:
 - entselect insel // select all entities in blue selection box
-- entselect [ strcmp (et) "shells" ] // select all shells in map
+- entselect \[ strcmp (et) "shells" \] // select all shells in map
 
 ### entloop
 
@@ -448,31 +466,31 @@ This variable controls whether explicit sky polygons are outlined (in purple) in
 
 ### outline
 
-`outline 0/1`
+`outline B`
 
 This variable controls whether geometry boundaries (outlines) are shown. Default = 0.
 
 ### wireframe
 
-`wireframe 0/1`
+`wireframe B`
 
 Turns off/on wireframe drawing of the map.
 
 ### allfaces
 
-`allfaces 0/1`
+`allfaces B`
 
 When on, causes the texturing commands to apply the new texture to all sides of the selected cubes rather than just the selected face.
 
 ### showmat
 
-`showmat 0/1`
+`showmat B`
 
 This variables whether volumes are shown for invisible material surfaces in edit mode. Material volumes may also be selected while this is enabled. Default = 1.
 
 ### optmats
 
-`optmats 0/1`
+`optmats B`
 
 This variables controls whether material rendering should be optimized by grouping materials into the largest possible surfaces. This will always make rendering faster, so the only reason to disable it is for testing. Default = 1.
 
@@ -484,19 +502,19 @@ Sets the 'handle' size of entities when trying to select them. Larger sizes mean
 
 ### entselsnap
 
-`entselsnap 0/1`
+`entselsnap N`
 
 Turns on snap-to-grid while draggin entities. (default: 6)
 
 ### entitysurf
 
-`entitysurf 0/1`
+`entitysurf B`
 
 When on, you will move with the entity as you push it with the scroll wheel. Of course, in order to push an entity, you must be holding it.
 
 ### selectionsurf
 
-`selectionsurf 0/1`
+`selectionsurf B`
 
 When on, you will move with the selection box as you push it with the scroll wheel. Of course, in order to push a selection box, you must be holding it.
 
@@ -507,9 +525,9 @@ When on, you will move with the selection box as you push it with the scroll whe
 
 Loads up map "name" in the gamemode set previously by "mode". A map given as "blah" refers to "packages/base/blah.ogz", "mypackage/blah" refers to "packages/mypackage/blah.ogz". The menu has a set of maps that can be loaded. See also map in the gameplay docs.
 
-At every map load, "data/default_map_settings.cfg" is loaded which sets up all texture definitions etc. Everything defined in there can be overridden per package or per map by creating a "package.cfg" or "mapname.cfg" which contains whatever you want to do differently from the default. It can also set up triggers scripts per map etc.
+At every map load, "data/default\_map\_settings.cfg" is loaded which sets up all texture definitions etc. Everything defined in there can be overridden per package or per map by creating a "package.cfg" or "mapname.cfg" which contains whatever you want to do differently from the default. It can also set up triggers scripts per map etc.
 
-When the map finishes it will load the next map when one is defined, otherwise reloads the current map. You can define what map follows a particular map by making an alias like (in the map script): alias nextmap_blah1 blah2 (loads "blah2" after "blah1").
+When the map finishes it will load the next map when one is defined, otherwise reloads the current map. You can define what map follows a particular map by making an alias like (in the map script): alias nextmap\_blah1 blah2 (loads "blah2" after "blah1").
 
 ### sendmap
 
@@ -528,7 +546,7 @@ Gets a map from the server if one is available. Automatically loads the map when
 `savemap "name"`
 `savecurrentmap`
 
-Saves the current map (/showcustommaps), using the same naming scheme as "map". Makes a versioned backup to "mapname_N.BAK" if a map by that name already exists, so you can never lose a map. With "savemap", if you leave out the "name" argument, it is saved under the current map name. With "savecurrentmap", the map is saved with the name determined by the current game. Where you store a map depends on the complexity of what you are creating: if its a single map (maybe with its own .cfg) then the "base" package is the best place. If its multiple maps or a map with new media (textures etc.) its better to store it in its own package (a directory under "packages"), which makes distributing it less messy.
+Saves the current map (/showcustommaps), using the same naming scheme as "map". Makes a versioned backup to "mapname\_N.BAK" if a map by that name already exists, so you can never lose a map. With "savemap", if you leave out the "name" argument, it is saved under the current map name. With "savecurrentmap", the map is saved with the name determined by the current game. Where you store a map depends on the complexity of what you are creating: if its a single map (maybe with its own .cfg) then the "base" package is the best place. If its multiple maps or a map with new media (textures etc.) its better to store it in its own package (a directory under "packages"), which makes distributing it less messy.
 
 ### newmap
 
@@ -546,13 +564,19 @@ Doubles the dimensions of the current map.
 
 `maptitle "Title by Author"`
 
-sets the map title, which will be displayed when the map loads. Either use the above format, or simply "by Author" if the map has no particular title (always displayed after the map load msg).
+Lets the map title, which will be displayed when the map loads. Either use the above format, or simply "by Author" if the map has no particular title (always displayed after the map load msg).
 
 ### loadsky
 
 `loadsky NAME [SPIN]`
 
-loads the skybox described by NAME, where NAME is a file name relative to the "packages/" directory. The engine will look for 6 sky box images: NAME_up.jpg, NAME_dn.jpg, NAME_lf.jpg, NAME_rt.jpg, NAME_ft.jpg, NAME_bk.jpg. These represent the skybox in the up, down, left, right, front, and back directions, respectively. If a .jpg file is not found, it will attempt to search for the files with a .png extension. SPIN, if specified, is floating point value that specifies, in degrees per second, the rate at which to spin/yaw the skybox. NOTE: This is an alias for the "skybox" and "spinsky" commands.
+Loads the skybox described by NAME, where NAME is a file name relative to the "packages/" directory. The engine will look for 6 sky box images: NAME\_up.jpg, NAME\_dn.jpg, NAME\_lf.jpg, NAME\_rt.jpg, NAME\_ft.jpg, NAME\_bk.jpg. These represent the skybox in the up, down, left, right, front, and back directions, respectively. If a .jpg file is not found, it will attempt to search for the files with a .png extension. SPIN, if specified, is floating point value that specifies, in degrees per second, the rate at which to spin/yaw the skybox. NOTE: This is an alias for the "skybox" and "spinsky" commands.
+
+### atmo
+
+`atmo B`
+
+Enables the procedural atmosphere (requires a [sunlight](https://tomatenquark.github.io/#/game/EDITREF?id=sunlight)).
 
 ### texturereset
 
@@ -604,7 +628,7 @@ Scrolls the current texture slot at X and Y Hz, along the X and Y axes of the te
 
 `texrotate N`
 
-Rotates the current texture slot by N*90 degrees for N=0..3. N=4 flips along the X axis, and N=5 flips along the Y axis.
+Rotates the current texture slot by N\*90 degrees for N=0..3. N=4 flips along the X axis, and N=5 flips along the Y axis.
 
 ### vrotate
 
@@ -670,7 +694,7 @@ Resets the texture configuration of all textures in the current selection to the
 
 `vdelta BODY`
 
-Excutes all of the "v*" commands in BODY such that they now only add to the current values for the textures in the current selection, rather than simply setting them. For example, vdelta [vrotate 1] would add 1 to the current rotation value for the textures, rather than just setting their rotation value to 1. This affects the "vrotate" (adds), "voffset" (adds), "vscale" (multiplies), "vshaderparam" (overrides), and "vcolor" (multiplies) commands.
+Excutes all of the "v\*" commands in BODY such that they now only add to the current values for the textures in the current selection, rather than simply setting them. For example, vdelta \[vrotate 1\] would add 1 to the current rotation value for the textures, rather than just setting their rotation value to 1. This affects the "vrotate" (adds), "voffset" (adds), "vscale" (multiplies), "vshaderparam" (overrides), and "vcolor" (multiplies) commands.
 
 ### fog
 
@@ -724,7 +748,7 @@ Sets the the colour of fog inside the lava to the specified R G B value from 0..
 
 `shader TYPE NAME VS PS`
 
-defines a shader NAME with vertex shader VS and pixel shader PS (both in ARB OpenGL 1.5 assembly format). See data/stdshader.cfg for examples. These definitions can be put in map cfg files or anywhere else, and will only be compiled once. TYPE indicates what resources the shader provides, or what backup method should be used if the graphics card does not support shaders. TYPE is either 0 for default shader, or 1 for normal-mapped world shaders. Requires DX9 / shader 2 class hardware (radeon 9500 or better, geforce 5200 or better) to run (older hardware will default to basic rendering).
+Defines a shader NAME with vertex shader VS and pixel shader PS (both in ARB OpenGL 1.5 assembly format). See data/stdshader.cfg for examples. These definitions can be put in map cfg files or anywhere else, and will only be compiled once. TYPE indicates what resources the shader provides, or what backup method should be used if the graphics card does not support shaders. TYPE is either 0 for default shader, or 1 for normal-mapped world shaders. Requires DX9 / shader 2 class hardware (radeon 9500 or better, geforce 5200 or better) to run (older hardware will default to basic rendering).
 
 ### fastshader
 
@@ -754,13 +778,13 @@ Overrides a uniform parameter for the shaders of all textures in the current sel
 
 `setpixelparam INDEX X Y Z W`
 
-Overrides a pixel parameter for the current shader. Any following texture slots will use this pixel parameter until its value is set/reset by subsequent commands. INDEX is the index of a program environment parameter (program.env[10+INDEX]) to the pixel program of the current shader. It's value is set to the vector (X, Y, Z, W). Coordinates that are not specified default to 0.
+Overrides a pixel parameter for the current shader. Any following texture slots will use this pixel parameter until its value is set/reset by subsequent commands. INDEX is the index of a program environment parameter (program.env\[10+INDEX\]) to the pixel program of the current shader. It's value is set to the vector (X, Y, Z, W). Coordinates that are not specified default to 0.
 
 ### setvertexparam
 
 `setvertexparam INDEX X Y Z W`
 
-Overrides a vertex parameter for the current shader. Any following texture slots will use this vertex parameter until its value is set/reset by subsequent commands. INDEX is the index of a program environment parameter (program.env[10+INDEX]) to the vertex program of the current shader. It's value is set to the vector (X, Y, Z, W). Coordinates that are not specified default to 0.
+Overrides a vertex parameter for the current shader. Any following texture slots will use this vertex parameter until its value is set/reset by subsequent commands. INDEX is the index of a program environment parameter (program.env\[10+INDEX\]) to the vertex program of the current shader. It's value is set to the vector (X, Y, Z, W). Coordinates that are not specified default to 0.
 
 ### setuniformparam
 
@@ -772,7 +796,7 @@ Overrides a uniform parameter for the current shader. Any following texture slot
 
 `music name [ondone]`
 
-Plays song "name" (with "packages" as base dir). This command is best used from map cfg files or triggers. Evaluates ondone when the song is finished, or just keeps looping the song if ondone is missing. Example: music "songs/music.ogg" [ echo "Song done playing!" ]
+Plays song "name" (with "packages" as base dir). This command is best used from map cfg files or triggers. Evaluates ondone when the song is finished, or just keeps looping the song if ondone is missing. Example: music "songs/music.ogg" \[ echo "Song done playing!" \]
 
 ### registersound
 
@@ -804,145 +828,145 @@ Example: mmodel snoutx10k
 
 `shadowmapambient N`
 
-specifies a colour to use for the ambient light value of shadows created by shadowmapping, where N is a hexadecimal colour value of the form "0xRRGGBB". Note that any value of 255 or less are treated as gray-scale. If N is 0 or unset, this value is determined by the "ambient" variable and the "skylight" command. (Default: 0)
+Specifies a colour to use for the ambient light value of shadows created by shadowmapping, where N is a hexadecimal colour value of the form "0xRRGGBB". Note that any value of 255 or less are treated as gray-scale. If N is 0 or unset, this value is determined by the "ambient" variable and the "skylight" command. (Default: 0)
 
 ### shadowmapangle
 
 `shadowmapangle N`
 
-specifies the angle in degrees at which shadows created by shadowmapping point. If N is 0 or unset, this value is guessed based on any radius 0 lights in the map.
+Specifies the angle in degrees at which shadows created by shadowmapping point. If N is 0 or unset, this value is guessed based on any radius 0 lights in the map.
 
 ### causticscale
 
 `causticscale N`
 
-specifies the scale, as a percent, to multiply the size of water caustics by.
+Specifies the scale, as a percent, to multiply the size of water caustics by.
 
 ### causticmillis
 
 `causticmillis N`
 
-specifies the speed at which water caustics play, in milliseconds per frame.
+Specifies the speed at which water caustics play, in milliseconds per frame.
 
 ### skybox
 
 `skybox NAME`
 
-loads the skybox described by NAME, where NAME is a file name relative to the "packages/" directory. The engine will look for 6 sky box images: NAME_up.jpg, NAME_dn.jpg, NAME_lf.jpg, NAME_rt.jpg, NAME_ft.jpg, NAME_bk.jpg. These represent the skybox in the up, down, left, right, front, and back directions, respectively. If a .jpg file is not found, it will attempt to search for the files with a .png extension.
+Loads the skybox described by NAME, where NAME is a file name relative to the "packages/" directory. The engine will look for 6 sky box images: NAME\_up.jpg, NAME\_dn.jpg, NAME\_lf.jpg, NAME\_rt.jpg, NAME\_ft.jpg, NAME\_bk.jpg. These represent the skybox in the up, down, left, right, front, and back directions, respectively. If a .jpg file is not found, it will attempt to search for the files with a .png extension.
 
 ### spinsky
 
 `spinsky SPIN`
 
-a floating point value that specifies, in degrees per second, the rate at which to spin/yaw the skybox.
+A floating point value that specifies, in degrees per second, the rate at which to spin/yaw the skybox.
 
 ### yawsky
 
 `yawsky YAW`
 
-specifies in degrees a constant yaw rotation to apply to the skybox.
+Specifies in degrees a constant yaw rotation to apply to the skybox.
 
 ### cloudbox
 
 `cloudbox NAME`
 
-loads the cloudbox described by NAME, similar to the "skybox" command. The cloudbox should have an alpha channel which is used to blend it over the normal skybox.
+Loads the cloudbox described by NAME, similar to the "skybox" command. The cloudbox should have an alpha channel which is used to blend it over the normal skybox.
 
 ### spinclouds
 
 `spinclouds SPIN`
 
-a floating point value that specifies, in degrees per second, the rate at which to spin/yaw the cloudbox.
+A floating point value that specifies, in degrees per second, the rate at which to spin/yaw the cloudbox.
 
 ### yawclouds
 
 `yawclouds YAW`
 
-specifies in degrees a constant yaw rotation to apply to the cloudbox.
+Specifies in degrees a constant yaw rotation to apply to the cloudbox.
 
 ### cloudclip
 
 `cloudclip CLIP`
 
-specifies a vertical offset at which to clip the cloudbox, a floating point value between 0 and 1. This defaults to 0.5, meaning the bottom half of the cloudbox is clipped away.
+Specifies a vertical offset at which to clip the cloudbox, a floating point value between 0 and 1. This defaults to 0.5, meaning the bottom half of the cloudbox is clipped away.
 
 ### cloudlayer
 
 `cloudlayer NAME`
 
-loads the cloud layer described by NAME, where NAME is a file name relative to the "packages/" directory. The engine will look for either "packages/NAME.png" or "packages/NAME.jpg". The cloud layer should have an alpha channel which is used to blend it onto the skybox. The cloud layer is mapped onto a horizontal circle that fades into the edges of the skybox.
+Loads the cloud layer described by NAME, where NAME is a file name relative to the "packages/" directory. The engine will look for either "packages/NAME.png" or "packages/NAME.jpg". The cloud layer should have an alpha channel which is used to blend it onto the skybox. The cloud layer is mapped onto a horizontal circle that fades into the edges of the skybox.
 
 ### cloudscrollx
 
 `cloudscrollx N`
 
-specifies the rate, a floating-point value in Hz, at which the cloud layer scrolls in the X direction.
+Specifies the rate, a floating-point value in Hz, at which the cloud layer scrolls in the X direction.
 
 ### cloudscrolly
 
 `cloudscrolly N`
 
-specifies the rate, a floating-point value in Hz, at which the cloud layer scrolls in the Y direction.
+Specifies the rate, a floating-point value in Hz, at which the cloud layer scrolls in the Y direction.
 
 ### cloudscale
 
 `cloudscale N`
 
-specifies the scale as a floating-point value telling how much to multiply the size of the cloud layer. (Default: 1)
+Specifies the scale as a floating-point value telling how much to multiply the size of the cloud layer. (Default: 1)
 
 ### cloudheight
 
 `cloudheight N`
 
-specifies the height of the cloud layer as a floating-point value, where -1 corresponds to the bottom of the skybox, 0 corresponds to the middle of the skybox, and 1 corresponds to the top of the skybox. Intermediate values place the cloud layer at intermediate heights of those. (Default: 0.2)
+Specifies the height of the cloud layer as a floating-point value, where -1 corresponds to the bottom of the skybox, 0 corresponds to the middle of the skybox, and 1 corresponds to the top of the skybox. Intermediate values place the cloud layer at intermediate heights of those. (Default: 0.2)
 
 ### cloudfade
 
 `cloudfade N`
 
-specifies the offset towards the center of the cloud layer at which the cloud layer will start fading into the skybox. This is a floating-point value between 0 and 1, where 0 corresponds to the edge of the cloud layer, and 1 corresponds to the center. (Default: 0.2)
+Specifies the offset towards the center of the cloud layer at which the cloud layer will start fading into the skybox. This is a floating-point value between 0 and 1, where 0 corresponds to the edge of the cloud layer, and 1 corresponds to the center. (Default: 0.2)
 
 ### cloudcolour
 
 `cloudcolour R G B`
 
-specifies a colour multiplier for the cloud layer as R G B values from 0..255.
+Specifies a colour multiplier for the cloud layer as R G B values from 0..255.
 
 ### cloudalpha
 
 `cloudalpha F`
 
-specifies an opacity for the cloud layer, where F is a floating-point value between 0 and 1. (Default: 1, solid)
+Specifies an opacity for the cloud layer, where F is a floating-point value between 0 and 1. (Default: 1, solid)
 
 ### fogdomeheight
 
 `fogdomeheight F`
 
-specifies the height of the fog dome as a floating-point value, where -1 corresponds to the bottom of the skybox, 0 corresponds to the middle of the skybox, and 1 corresponds to the top of the skybox. Intermediate values place the fog dome at intermediate heights of those. (Default: -0.5)
+Specifies the height of the fog dome as a floating-point value, where -1 corresponds to the bottom of the skybox, 0 corresponds to the middle of the skybox, and 1 corresponds to the top of the skybox. Intermediate values place the fog dome at intermediate heights of those. (Default: -0.5)
 
 ### fogdomemin
 
 `fogdomemin F`
 
-specifies a minimum opacity for the fog dome, where F is a floating-point value between 0 and 1. (Default: 0, invisible)
+Specifies a minimum opacity for the fog dome, where F is a floating-point value between 0 and 1. (Default: 0, invisible)
 
 ### fogdomemax
 
 `fogdomemax F`
 
-specifies a maximum opacity for the fog dome, where F is a floating-point value between 0 and 1. (Default: 0, invisible)
+Specifies a maximum opacity for the fog dome, where F is a floating-point value between 0 and 1. (Default: 0, invisible)
 
 ### fogdomecap
 
 `fogdomecap B`
 
-specifies whether the bottom of the fog dome should be capped, where B is 0 or 1 (Default: 1, on).
+Specifies whether the bottom of the fog dome should be capped, where B is 0 or 1 (Default: 1, on).
 
 ### fogdomeclip
 
 `fogdomeclip F`
 
-specifies whether the top of the fog dome should be clipped off at a relative size F, where F is a floating-point value between 0 and 1 (Default: 1, not clipped).
+Specifies whether the top of the fog dome should be clipped off at a relative size F, where F is a floating-point value between 0 and 1 (Default: 1, not clipped).
 
 ### fogdomecolour
 
@@ -954,7 +978,7 @@ The colour of the fog dome, specified as R G B values from 0..255 (default: 0 0 
 
 `skytexture B`
 
-specifies whether or not to enable rendering of sky-textured surfaces. If set to 0, sky-textured surfaces are not rendered, allowing sky texture to be used as a "don't render this" surface. Disabling this also allows the skybox to be rendered last after the scene, which yields speedups on some video cards, so disable this if possible in your map, even though it defaults to on. (Default: 1)
+Specifies whether or not to enable rendering of sky-textured surfaces. If set to 0, sky-textured surfaces are not rendered, allowing sky texture to be used as a "don't render this" surface. Disabling this also allows the skybox to be rendered last after the scene, which yields speedups on some video cards, so disable this if possible in your map, even though it defaults to on. (Default: 1)
 
 ### importcube
 
@@ -978,7 +1002,7 @@ Normalmaps generally come in two kinds, left-handed or righ-handed coordinate sy
 
 `mergenormalmaps H N`
 
-Normalmaps authored for Quake 4 often come as a base normal map, with seperate height offset file *_h.tga. This is NOT a height file as used for parallax, instead its detail to be blended onto the normals. This command takes normalmap N and a _h file H (both MUST be 24bit .tga), and outputs a combined normalmap N (it *overwrites* N).
+Normalmaps authored for Quake 4 often come as a base normal map, with seperate height offset file \*\_h.tga. This is NOT a height file as used for parallax, instead its detail to be blended onto the normals. This command takes normalmap N and a "\_h" file H (both MUST be 24bit .tga), and outputs a combined normalmap N (it *overwrites* N).
 
 ## Lighting
 ### ambient
@@ -1232,7 +1256,7 @@ Creates a spotlight with the given "radius" (in degrees, 0 to 90). A 90 degree s
 
 - "envmap" `[radius]`
 
-Creates an environment map reflecting the geometry around the entity. The optional radius overrides the maximum distance within which glass or geometry using the "bumpenv*" shaders will reflect from this environment map. If none is specified, the default is taken from the variable "envmapradius" (which defaults to 128 units), which may also be set in map cfgs. Environment maps are generated on a map load, or can be regenerated while editing using the "recalc" command. Please use the absolute minimum number of these possible. Each one uses up a decent amount of texture memory. For instance, rather than using two environment maps on each side of a window, use only one in the middle of the pane of glass. If you have a wall with many windows, place only one environment map in the middle of the wall geometry, and it should work just fine for all the windows.
+Creates an environment map reflecting the geometry around the entity. The optional radius overrides the maximum distance within which glass or geometry using the "bumpenv\*" shaders will reflect from this environment map. If none is specified, the default is taken from the variable "envmapradius" (which defaults to 128 units), which may also be set in map cfgs. Environment maps are generated on a map load, or can be regenerated while editing using the "recalc" command. Please use the absolute minimum number of these possible. Each one uses up a decent amount of texture memory. For instance, rather than using two environment maps on each side of a window, use only one in the middle of the pane of glass. If you have a wall with many windows, place only one environment map in the middle of the wall geometry, and it should work just fine for all the windows.
 
 - "sound" `N radius [size]`
 
@@ -1248,7 +1272,7 @@ A team flag for CTF maps ONLY. Yaw Y is taken from the current camera yaw (shoul
 
 - "base" `[ammo [N]]`
 
-A base for capture mode. If N is specified, the alias "base_N" will be looked up, and its value used for the name of the base, or otherwise a default name will be assigned. If ammo is specified, the base will always produce that type of ammo. If ammo is unspecified or 0, the server will randomly choose a type of ammo to produce at the start of the match. If ammo is negative, then it will pick a random type, but will match all other bases with the same negative ammo value. Ammo types are:
+A base for capture mode. If N is specified, the alias "base\_N" will be looked up, and its value used for the name of the base, or otherwise a default name will be assigned. If ammo is specified, the base will always produce that type of ammo. If ammo is unspecified or 0, the server will randomly choose a type of ammo to produce at the start of the match. If ammo is negative, then it will pick a random type, but will match all other bases with the same negative ammo value. Ammo types are:
 
 - "shells"
 - "bullets"
@@ -1275,7 +1299,7 @@ A jumppad entity which gives you a push in the direction specified. For example,
 
 - "mapmodel" `[Y] N T R`
 
-A map model, i.e. an object rendered as obj/md2/md3/md5/iqm which you collide against, cast shadows etc. Y is the yaw of the model and is initially taken from the current camera yaw, it cannot be specified when creating the entity. N determines which mapmodel you want, this depends on "mapmodel" declarations in the maps cfg file. T specifies mapmodel behaviour such as triggers, see table below. R is the trigger number, 0 means no trigger. This number specifies what trigger to activate, and in addition, the alias "level_trigger_Trigger" will be executed, where Trigger is substituted accordingly (this allows you to script additional actions upon a trigger, i.e. put this into your map cfg file to print a message: alias level_trigger_1 "echo A door opened nearby"). The alias "triggerstate" will hold a value of -1, 0, or 1 indicating how the trigger was activated.
+A map model, i.e. an object rendered as obj/md2/md3/md5/iqm which you collide against, cast shadows etc. Y is the yaw of the model and is initially taken from the current camera yaw, it cannot be specified when creating the entity. N determines which mapmodel you want, this depends on "mapmodel" declarations in the maps cfg file. T specifies mapmodel behaviour such as triggers, see table below. R is the trigger number, 0 means no trigger. This number specifies what trigger to activate, and in addition, the alias "level\_trigger\_Trigger" will be executed, where Trigger is substituted accordingly (this allows you to script additional actions upon a trigger, i.e. put this into your map cfg file to print a message: alias level\_trigger\_1 "echo A door opened nearby"). The alias "triggerstate" will hold a value of -1, 0, or 1 indicating how the trigger was activated.
 
 Be careful when using "switch many" for thing that affect gameplay, such as opening doors, as it can be confusing. Best is to reserve a particular model to mean "many" and others "once". All types >0 are snapped to 15 degree angles for orientation.
 
@@ -1291,7 +1315,7 @@ Like a mapmodel, except it moves around and carries players, monsters, or other 
 
 - "monster" `N [T]`
 
-A monster, currently N = 0..4 (see gameplay docs). Monster entities will be spawned when in classic single player mode, and will attack you when you come into view. yaw is taken from the current camera yaw. T is an optional tag number that is assigned to this monster. When the monster dies, the script alias "monster_dead_T" will be invoked.
+A monster, currently N = 0..4 (see gameplay docs). Monster entities will be spawned when in classic single player mode, and will attack you when you come into view. yaw is taken from the current camera yaw. T is an optional tag number that is assigned to this monster. When the monster dies, the script alias "monster\_dead\_T" will be invoked.
 
 - "respawnpoint"
 
@@ -1306,7 +1330,7 @@ A particle emitter. Particles includes many of the effects as seen for weapons, 
 |0	|radius, height, rgb (0x000..0xFFF) - 0 values are compat with older maps, otherwise radius&height=100 is a 'classic' size. |colored flames with smoke|
 |1	|direction (0..5)|steam vent|
 |2	|direction (0..5) - color comes from water color|water fountain|
-|3	|size (0..40), rgb (0x000..0xFFF)|explosion, i.e. fire ball [*expensive compared to other particles]|
+|3	|size (0..40), rgb (0x000..0xFFF)|explosion, i.e. fire ball \[expensive compared to other particles\]|
 |4	|direction (0..5), length(0..100), rgb (0x000..0xFFF)|streak/flare|
 |4	|direction (256+effect), length(0..100), rgb (0x000..0xFFF)|multiple streak/flare effect<br>Effect - Description<br>0..2 - circular<br>3..5 - cylinderical shell<br>6..11 - conic shell<br>12..14 - cubic volume<br>15..20 - planar surface<br>21 - sphere<br>note: +32 to reverse direction of streaks|
 |5	|percentage (0..100), rgb (0x000..0xFFF)|capture meter, i.e. rgb vs black|
@@ -1385,13 +1409,13 @@ Note waypoints are not loaded until required, i.e. until a "loadwaypoints" or "a
 
 ### showwaypoints
 
-`showwaypoints 0/1`
+`showwaypoints B`
 
 Toggles showing of waypoints, where 1 enables it, and 0 disables it. This is mostly useful when laying waypoints so as to see the possible paths and ensure good coverage.
 
 ### dropwaypoints
 
-`dropwaypoints 0/1`
+`dropwaypoints B`
 
 Toggles dropping of waypoints, where 1 enables it, and 0 disables it. By default the player is dropping waypoints whilst playing against bots, this enables bots to "learn" from the player. Note that if enabled, waypoints will be saved automatically once the map is changed, and the variable will then be reset back to 0.
 
@@ -1405,7 +1429,7 @@ Loads the waypoints for the current map (or specified file).
 
 `savewaypoints [filename]`
 
-Saves the waypoints for the current map (or specified file), e.g. as "<mapname>.wpt".
+Saves the waypoints for the current map (or specified file), e.g. as "\<mapname\>.wpt".
 
 ### clearwaypoints
 
@@ -1435,18 +1459,24 @@ On the bottom left of the screen are a bunch of stats. You'll find out what they
 
 ### hidestats
 
-`hidestats 0/1`
+`hidestats B`
 
-Turn on to hide the above stats
+Turn on to hide the above stats.
 
 ### hidehud
 
-`hidehud 0/1`
+`hidehud B`
 
-Turn on to hide all HUD elements
+Turn on to hide all HUD elements.
 
 ### hudgun
 
-`hudgun 0/1`
+`hudgun B`
 
-Turn off to hide guns/hand
+Turn off to hide guns/hand.
+
+### hidehudicons
+
+`hidehudicons B`
+
+Hides ammo and health icons.
