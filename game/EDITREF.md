@@ -3,28 +3,28 @@
 Note: When dealing with array attributes (getting a piece of information from a list of values) it is important to know that most start at zero (0) and count upwards from there. This means that the first value is 0, the second is 1, the third is 2 and so forth. Please keep this in mind, especially when dealing with entity attributes, as zero is always considered to be the first/default value, not 1.
 
 ## Summary of the most common editing commands
-- [newmap N](https://tomatenquark.github.io/#/game/EDITREF?id=newmap)<br>
+- [newmap N](#newmap)<br>
 	Starts a new map with scale N (10..16). (tip: very large maps consume more processing).<br>
 	`/newmap 12`
-- [skylight R G B](https://tomatenquark.github.io/#/game/EDITREF?id=skylight)<br>
+- [skylight R G B](#skylight)<br>
 	Sets the sky light of the map with colors R G B (0..255).<br>
 	`/skylight 125 50 50`
-- [sunlight R G B](https://tomatenquark.github.io/#/game/EDITREF?id=sunlight)<br>
+- [sunlight R G B](#sunlight)<br>
 	Sets the sun light of the map with colors R G B (0..255). (tip: look somewhere and type /getsundir).<br>
 	`/sunlight 255 255 120`
-- [calclight](https://tomatenquark.github.io/#/game/EDITREF?id=calclight)<br>
+- [calclight](#calclight)<br>
 	Renders the map lights and shadows. (tip: to get a result, the map needs skylight/sunlight defined or some "light" entity available).<br>
 	`/calclight`
-- [savemap S](https://tomatenquark.github.io/#/game/EDITREF?id=savemap)<br>
+- [savemap S](#savemap)<br>
 	Saves the current map with the name S in the "packages/base" folder. (tip: to see all your saved maps, type /mymaps).<br>
 	`/savemap mymap`
-- [newent](https://tomatenquark.github.io/#/game/EDITREF?id=newent)<br>
+- [newent](#newent)<br>
 	Creates a new entity.<br>
 	`/newent light 200 200 200`
-- [allfaces B](https://tomatenquark.github.io/#/game/EDITREF?id=allfaces)<br>
+- [allfaces B](#allfaces)<br>
 	If enabled, add the texture to all faces of the selected cube.<br>
 	`/allfaces 1`
-- [gridpower N](https://tomatenquark.github.io/#/game/EDITREF?id=gridpower)<br>
+- [gridpower N](#gridpower)<br>
 	Defines the size of the editing grid as N (0..12). (tip: very small grids will allow more detailed editing, however it can compromise the framerate of your map).<br>
 	`/gridpower 5`
 <hr>
@@ -576,7 +576,7 @@ Loads the skybox described by NAME, where NAME is a file name relative to the "p
 
 `atmo B`
 
-Enables the procedural atmosphere (requires a [sunlight](https://tomatenquark.github.io/#/game/EDITREF?id=sunlight)).
+Enables the procedural atmosphere (requires a [sunlight](#sunlight)).
 
 ### texturereset
 

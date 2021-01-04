@@ -2,7 +2,7 @@
 
 ## Before You Start
 
-Take some time to read the rest of this document, as it describes options and commands that may be crucial to a successful experience with Cube 2: Sauerbraten.
+Take some time to read the rest of this document, as it describes options and commands that may be crucial to a successful experience with Tomatenquark.
 
 Binding keys, as well as performance and gameplay related settings are documented below, these commands can be used in both the console and configuration scripts. In addition, you can also press "ESC" to go into the menu, which will provide you with an interface for navigating some (not all) of the commands.
 
@@ -105,7 +105,7 @@ Loads map S on startup.
 
 `-xS`
 
-Executes the script commands S on startup, note that this is done before the map loads, so if you wish them to be executed later, you should enclose them in a sleep statement. Example: -x"sleep 1000 [ connect localhost ]"
+Executes the script commands S on startup, note that this is done before the map loads, so if you wish them to be executed later, you should enclose them in a sleep statement. Example: -x"sleep 1000 [ connect localhost ]".
 
 ### -uN
 
@@ -181,14 +181,21 @@ Returns the host used by the current server to make the customized content avail
 
 Enables or disables the "host" and "port" fields in the server browser (disabled by default).
 
-### bind / editbind
+### bind / editbind / specbind
 
 ```
 bind K A
 editbind K A
+specbind K A
 ```
 
-Binds key K to commands A (see console language below for what you can put in A). To find out what key names and their default bindings are, look at data/keymap.cfg, then add bind commands to your autoexec.cfg. Editbind works much the same way, except now the key is only available in edit mode (if no editbind is defined for a certain key, it will use the normal binding).
+Binds key K to commands A (see console language below for what you can put in A). To find out what key names and their default bindings are, look at data/keymap.cfg, then add bind commands to your autoexec.cfg. Editbind/Specbind works much the same way, except now the key is only available in edit mode/spectator (if none is defined for a certain key, it will use the normal binding).
+
+### dbgbind
+
+`dbgbind 0/1`
+
+Shows the key pressed and the action assigned to it.
 
 ### alias
 
@@ -223,7 +230,7 @@ left
 right
 ```
 
-Move you in said direction (default key: up down left right, w s a d).
+Move you in said direction (default key: up down left right, w s a d), only works if applied to a key ([bind](#bind-editbind-specbind)).
 
 ### attack
 
@@ -235,7 +242,7 @@ Fires the current weapon (default key: left mouse).
 
 `jump`
 
-Triggers a jump (default key: space, right mouse).
+Triggers a jump (default key: space).
 
 ### zoom
 
@@ -295,13 +302,13 @@ Sets your zoomed-in FOV to N.
 
 `zoominvel N`
 
-Sets the number of milliseconds over which zoom-in happens. Zoom-in is instant if N is 0. (default: 250)
+Sets the number of milliseconds over which zoom-in happens. Zoom-in is instant if N is 0. (default: 250).
 
 ### zoomoutvel
 
 `zoomoutvel N`
 
-Sets the number of milliseconds over which zoom-out happens. Zoom-out is instant if N is 0. (default: 100)
+Sets the number of milliseconds over which zoom-out happens. Zoom-out is instant if N is 0. (default: 100).
 
 ### zoomsens
 
@@ -313,11 +320,13 @@ Sets mouse sensitivity when zoomed-in (default: 1).
 
 `zoomautosens B`
 
-Toggles whether mouse sensitivity should be automatically scaled to match the zoomed-in FOV relative to FOV. This overrides "zoomsens" if enabled. (default: 1)
+Toggles whether mouse sensitivity should be automatically scaled to match the zoomed-in FOV relative to FOV. This overrides "zoomsens" if enabled. (default: 1).
 
 ### hudgun
 
-`hudgun N`Sets hudguns either on (1) or off (0).
+`hudgun N`
+
+Sets hudguns either on (1) or off (0).
 
 ### hudgunsway
 
@@ -479,7 +488,7 @@ The size of the lens flare effect from 20..500 (default: 100).
 
 `setpostfx [N [P]]`
 
-Sets your favourite fullscreen shader. Active permanently once set. Use without N argument to turn it off. Certain shaders like bloom require you to specify a P for the intensity. Current example shaders: bw, invert, gbr, sobel, bloom
+Sets your favourite fullscreen shader. Active permanently once set. Use without N argument to turn it off. Certain shaders like bloom require you to specify a P for the intensity. Current example shaders: bw, invert, gbr, sobel, bloom.
 
 ### screenshot
 
@@ -542,7 +551,7 @@ Toggles the entire hud display, which includes rendering stats, ammo, and echoed
 
 `maxroll N`
 
-Sets the maximum value your display will roll on strafing from 0..20 (default: 3)
+Sets the maximum value your display will roll on strafing from 0..20 (default: 3).
 
 ### crosshairsize
 
@@ -566,7 +575,7 @@ Executes all commands in config file S.
 
 `history N`
 
-Executes the Nth command in the command line history. For example, binding "history 0" to a key allows you to quickly repeat the last command typed in (useful for placing many identical entities etc.)
+Executes the Nth command in the command line history. For example, binding "history 0" to a key allows you to quickly repeat the last command typed in (useful for placing many identical entities etc).
 
 ### keymap
 
@@ -623,6 +632,24 @@ Creates a new menu with name S. All the following 'gui' menuitem commands will a
 `guilist '[' ... ']'`
 
 Defines a menu item that is a group of menu items. The layout of each nested group will alternate - the top level (newgui) is laid out vertically, the first guilist will be laid out horizontally, the second guilist vertically, etc. This allows tables and lists to be created. The layout direction also influences the display of items such as sliders, bars, progress bars, and struts.
+
+### guialign
+
+`guialign N [C]`
+
+Aligns content C horizontally in position N (N=-1: left, N=0: center, N=1: right).
+
+### guistrut
+
+`guistrut N1 N2`
+
+Creates an invisible separator with size N1 oriented in N2 (N2=0: vertically, N2=1: horizontally, or the opposite if it's inside a guilist).
+
+### guiitemmove
+
+`guiitemmove A X Y [C]`
+
+Aligns gui item C to A and moves to X and Y.
 
 ### guispring
 
@@ -877,13 +904,13 @@ Returns the length of the string S (example: echo (strlen "long sentence") - wou
 
 `min A B`
 
-This results the lower number of the 2 Strings A and B
+This results the lower number of the 2 Strings A and B.
 
 ### max
 
 `max A B`
 
-This results the higher number of the 2 Strings A and B
+This results the higher number of the 2 Strings A and B.
 
 ### rnd
 
@@ -913,7 +940,7 @@ Evaluates body while cond evaluates to true. Note that cond here has to have [],
 
 `concat S...`
 
-Concatenates all the arguments and returns the result
+Concatenates all the arguments and returns the result.
 
 ### concatword
 
@@ -931,13 +958,13 @@ Substitutes the V values into the format string F and returns the result. The fo
 
 `at S N`
 
-Grabs the Nth word out of string S and returns the result
+Grabs the Nth word out of string S and returns the result.
 
 ### listlen
 
 `listlen L`
 
-Returns the number of items in the list L
+Returns the number of items in the list L.
 
 ### listclients
 
@@ -957,6 +984,146 @@ Only executes A if the command is executed on the release of a key/button (must 
 
 Normally the result of a [] block is the result of the last command in the block. If you want the result to be a particular variable or value, you can use e.g. "result $i" etc.
 
+## Standard Tomatenquark CubeScript Library
+
+Non-hardcoded functions that can be found in data/stdlib.cfg.
+
+### listreplace
+
+`listreplace L N S`
+
+Replaces the N*th* item in list L with string S.
+
+### listoccount
+
+`listoccount L S`
+
+Returns the number of occurrences of item S in list L.
+
+### rndlist
+
+`rndlist L`
+
+Returns random item from list L.
+
+### stroccount
+
+`stroccount S C`
+
+Returns number of occurrences of character C in the string S.
+
+### strreform
+
+`strreform S`
+
+Removes special characters from the string S (line breaks, tabs and colors).
+
+### strreplace+
+
+`strreplace+ S L1 L2`
+
+Replaces items in list L1 with items in list L2 that are in the string S.
+
+### strcapitalize
+
+`strcapitalize S`
+
+Capitalizes the first letter of each word in the string S.
+
+### listunrepeat
+
+`listunrepeat L`
+
+Removes repeated occurrences in the list L.
+
+### listmatch
+
+`listmatch L S`
+
+Returns all items in the list L that match the string S.
+
+### listdiff
+
+`listdiff L1 L2 O`
+
+Compares the list L2 with the list L1 using the operator O and returns the corresponding items.
+
+### listcompare
+
+`listcompare L1 L2`
+
+Compares items from list L1 with list L2 one by one, returns 0 or index if different.
+
+### getfileslist
+
+`getfileslist P E`
+
+Returns a list of files in path P with the extension E.
+
+### strstrlast
+
+`strstrlast S C`
+
+Returns index of the last occurrence of the character C in the string S.
+
+### loopchar
+
+`loopchar V S [C]`
+
+Visits each character of the string S and executes C (use $V to reference the character).
+
+### strstatecolor
+
+`strstatecolor B S N0 N1`
+
+Applies to the string S the color N0 if B is 0 (false) or N1 if B is 1 (true), colors range from 0 to 8.
+
+### breaklist
+
+`breaklist L N`
+
+Divides list L into N parts.
+
+### getstrbetween
+
+`getstrbetween S D1 D2 N`
+
+Returns all occurrences between delimiters D1 and D2 in the string S;<br>
+if N is 3, returns the delimiter D1 and the resulting string;<br>
+if N is 2, returns the resulting string and the delimiter D2;<br>
+if N is 1, returns only the resulting string;<br>
+if N is 0 or empty, returns everything.<br>
+
+### strstr+
+
+`strstr+ S C N`
+
+Returns index of character C in string S after index N.
+
+### strstrlist
+
+`strstrlist S1 S2`
+
+Returns indexes of all occurrences of string S2 in string S1.
+
+### initvar
+
+`initvar V S`
+
+Defines variable V with value S if it doesn't exist.
+
+### loopstr
+
+`loopstr S N`
+
+Returns string S repeated N times.
+
+### caseor
+
+`caseor S L [C]`
+
+Checks for occurrence of string S in list L and executes C if any.
+
 ## Variables that are only really useful when used as value:
 
 ### $editing
@@ -971,7 +1138,7 @@ This is true when in edit mode.
 
 Returns the alias from the variable V.
 
-### bind
+### get\*bind
 
 ```
 getbind B
@@ -979,9 +1146,9 @@ geteditbind B
 getspecbind B
 ```
 
-Returns the game, edit or spectator bind B
+Returns the game, edit or spectator bind B.
 
-### num
+### getclient\*
 
 ```
 getclientnum N
@@ -991,7 +1158,7 @@ getclientteam N
 
 This returns the client number, name or team of the player N.
 
-### fps
+### get\*
 
 ```
 getname
@@ -1000,7 +1167,7 @@ getweapon
 getfps
 ```
 
-Tells your own Name Team Weapon or FPS
+Tells your own Name Team Weapon or FPS.
 
 ### gettex
 
@@ -1012,16 +1179,16 @@ Adds the current selected texture to the front of your texture list in Y+scroll 
 
 `gettexname`
 
-Results the current Texture name
+Results the current Texture name.
 
 ### isconnected
 
 `isconnected N`
 
-If the Player N is online this is 1 (true)
+If the Player N is online this is 1 (true).
 
 ### isspectator
 
 `isspectator N`
 
-If the Player N is spectator this is 1 (true)
+If the Player N is spectator this is 1 (true).
